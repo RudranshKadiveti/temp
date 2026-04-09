@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal Extraction Engine | Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        :root {
+            --bg-deep: #050505;
+            --bg-card: rgba(22, 22, 24, 0.7);
+            --accent: #7C4DFF;
+            --accent-glow: rgba(124, 77, 255, 0.3);
+            --text-main: #E2E2E7;
+            --text-dim: #94949E;
+            --border: rgba(255, 255, 255, 0.08);
+            --success: #00E676;
+            --error: #FF5252;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            user-select: none;
+        }
+
+        body {
+            background-color: var(--bg-deep);
+            color: var(--text-main);
+            font-family: 'Outfit', sans-serif;
+            overflow-x: hidden;
+            display: flex;
+            min-height: 100vh;
+        }
+
+        /* 🧬 DYNAMIC GLOWS */
+        .glow-1 {
+            position: fixed;
+            top: -200px;
+            right: -200px;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
+            z-index: -1;
+            filter: blur(100px);
+        }
+
+        .glow-2 {
+            position: fixed;
+            bottom: -200px;
+            left: -200px;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(0, 230, 118, 0.1) 0%, transparent 70%);
+            z-index: -1;
+            filter: blur(100px);
+        }
+
+        /* 🖇️ SIDEBAR */
+        aside {
+            width: 280px;
+            border-right: 1px solid var(--border);
+            padding: 40px 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            background: rgba(10, 10, 11, 0.5);
+            backdrop-filter: blur(10px);
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--accent);
+            letter-spacing: -0.5px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .nav-items {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .nav-item {
+            padding: 12px 16px;
+            border-radius: 12px;
+            color: var(--text-dim);
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .nav-item:hover, .nav-item.active {
+            background: rgba(255, 255, 255, 0.04);
+            color: var(--text-main);
+        }
+
+        .nav-item.active {
+            border: 1px solid var(--border);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* 🖥️ MAIN CONTENT */
+        main {
+            flex: 1;
+            padding: 40px 60px;
+            overflow-y: auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 48px;
+        }
+
+        .welcome h1 {
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .welcome p {
+            color: var(--text-dim);
+            font-size: 16px;
+        }
+
+        /* 📥 CONFIG PANEL */
+        .config-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 32px;
+            margin-bottom: 48px;
+        }
+
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            padding: 32px;
+            backdrop-filter: blur(20px);
+        }
+
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-bottom: 24px;
+        }
+
+        label {
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-dim);
+        }
+
+        input, select {
+            background: rgba(0, 0, 0, 0.2);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 14px 18px;
+            color: var(--text-main);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        input:focus {
+            border-color: var(--accent);
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: white;
+            border: none;
+            border-radius: 14px;
+            padding: 16px 32px;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s transform;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .btn-primary:hover {
+            opacity: 0.9;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px var(--accent-glow);
+        }
+
+        /* 📋 TASK LIST */
+        .task-list {
+            margin-top: 40px;
+        }
+
+        .table-header {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+            padding: 0 24px 16px;
+            color: var(--text-dim);
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .task-row {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+            padding: 20px 24px;
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            margin-bottom: 12px;
+            align-items: center;
+            transition: background 0.2s;
+        }
+
+        .task-row:hover {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .status-pill {
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .status-processing { background: rgba(124, 77, 255, 0.2); color: var(--accent); border: 1px solid var(--accent); }
+        .status-completed { background: rgba(0, 230, 118, 0.2); color: var(--success); border: 1px solid var(--success); }
+        .status-failed { background: rgba(255, 82, 82, 0.2); color: var(--error); border: 1px solid var(--error); }
+
+        .download-btn {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--text-main);
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+
+        .download-btn:hover {
+            background: var(--accent);
+            border-color: var(--accent);
+        }
+
+        .format-menu {
+            display: none;
+            position: absolute;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            min-width: 200px;
+            z-index: 100;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .format-menu.visible {
+            display: block;
+        }
+
+        .format-option {
+            padding: 12px 16px;
+            cursor: pointer;
+            font-size: 13px;
+            border-bottom: 1px solid var(--border);
+            transition: background 0.2s;
+        }
+
+        .format-option:last-child {
+            border-bottom: none;
+        }
+
+        .format-option:hover {
+            background: rgba(124, 77, 255, 0.2);
+        }
+
+        /* Modal styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(4px);
+        }
+
+        .modal.show {
+            display: block;
+        }
+
+        .modal-content {
+            background: var(--bg-card);
+            margin: 5% auto;
+            padding: 0;
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            width: 90%;
+            max-width: 800px;
+            max-height: 80vh;
+            overflow-y: auto;
+            animation: modalSlide 0.3s ease-out;
+        }
+
+        @keyframes modalSlide {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .modal-header {
+            padding: 24px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .modal-header h2 {
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .close-btn {
+            background: none;
+            border: none;
+            color: var(--text-dim);
+            cursor: pointer;
+            font-size: 24px;
+        }
+
+        .close-btn:hover {
+            color: var(--text-main);
+        }
+
+        .modal-body {
+            padding: 24px;
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+        }
+
+        .data-table th {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+            color: var(--text-dim);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .data-table td {
+            padding: 12px;
+            border-bottom: 1px solid var(--border);
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 200px;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 8px;
+            position: relative;
+        }
+
+        .btn-small {
+            padding: 6px 12px;
+            border-radius: 6px;
+            border: 1px solid var(--border);
+            background: transparent;
+            color: var(--text-main);
+            font-size: 11px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-small:hover {
+            background: var(--accent);
+            border-color: var(--accent);
+        }
+
+        .btn-small.primary {
+            background: var(--accent);
+            border-color: var(--accent);
+        }
+
+        .metrics {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+
+        .metric-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 24px;
+            text-align: center;
+        }
+
+        .metric-val { font-size: 24px; font-weight: 700; color: var(--accent); margin-bottom: 4px; }
+        .metric-label { font-size: 11px; color: var(--text-dim); text-transform: uppercase; }
+
+        /* SCROLLBAR */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 10px; }
+    </style>
+</head>
+<body>
+    <div class="glow-1"></div>
+    <div class="glow-2"></div>
+
+    <aside>
+        <div class="logo">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            STRATOS
+        </div>
+        <div class="nav-items">
+            <div class="nav-item active">Dashboard</div>
+            <div class="nav-item">Extraction Queue</div>
+            <div class="nav-item">Discovery Log</div>
+            <div class="nav-item">API Tokens</div>
+            <div class="nav-item">Settings</div>
+        </div>
+    </aside>
+
+    <main>
+        <header>
+            <div class="welcome">
+                <h1>Extraction Console</h1>
+                <p>Welcome back, system performance optimized.</p>
+            </div>
+            <div class="metrics">
+                <div class="metric-card">
+                    <div class="metric-val" id="total_processed">0</div>
+                    <div class="metric-label">Total Records</div>
+                </div>
+            </div>
+        </header>
+
+        <div class="config-grid">
+            <div class="card animate__animated animate__fadeInUp">
+                <div class="input-group">
+                    <label>Target URL</label>
+                    <input type="text" id="target_url" placeholder="https://www.amazon.in/s?k=macbook">
+                </div>
+                <div class="input-group">
+                    <label>Extraction Strategy / Query</label>
+                    <input type="text" id="query" placeholder="find all macbook pro variants">
+                </div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                    <div class="input-group">
+                        <label>Max Pages</label>
+                        <input type="number" id="pages" value="5">
+                    </div>
+                    <div class="input-group">
+                        <label>Output Format</label>
+                        <select id="format">
+                            <option value="csv">CSV (Streaming)</option>
+                            <option value="parquet">Apache Parquet (Big Data)</option>
+                            <option value="json">JSON Lines</option>
+                        </select>
+                    </div>
+                </div>
+                <button class="btn-primary" onclick="startExtraction()">INITIALIZE EXTRACTION</button>
+            </div>
+
+            <div class="card animate__animated animate__fadeInUp" style="animation-delay: 0.1s;">
+                <h3 style="margin-bottom: 24px; font-size: 16px;">Advanced Filters</h3>
+                <div class="input-group">
+                    <label>Price Min (INR)</label>
+                    <input type="text" id="p_min" placeholder="e.g. 50000">
+                </div>
+                <div class="input-group">
+                    <label>Price Max (INR)</label>
+                    <input type="text" id="p_max" placeholder="e.g. 150000">
+                </div>
+                <p style="font-size: 12px; color: var(--text-dim);">Filters are applied via Layer 2 URL manipulation for maximum speed.</p>
+            </div>
+        </div>
+
+        <div class="task-list">
+            <div class="table-header">
+                <div>Source & Request</div>
+                <div>Status</div>
+                <div>Records</div>
+                <div>Created At</div>
+                <div>Action</div>
+            </div>
+            <div id="job_container">
+                <!-- Jobs populated here -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Preview Modal -->
+    <div id="previewModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Data Preview</h2>
+                <button class="close-btn" onclick="closePreview()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="previewContent"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const FORMATS = ['csv', 'json', 'jsonl', 'xlsx', 'parquet'];
+
+        async function startExtraction() {
+            const data = {
+                url: document.getElementById('target_url').value,
+                query: document.getElementById('query').value,
+                pages: parseInt(document.getElementById('pages').value),
+                format: document.getElementById('format').value,
+                min_price: document.getElementById('p_min').value,
+                max_price: document.getElementById('p_max').value
+            };
+
+            if (!data.url) {
+                alert("Please provide URL.");
+                return;
+            }
+
+            data.query = (data.query || '').trim();
+            data.min_price = (data.min_price || '').trim() || null;
+            data.max_price = (data.max_price || '').trim() || null;
+
+            const response = await fetch('/api/scrape', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            });
+
+            const resData = await response.json();
+            console.log("Job started:", resData.job_id);
+            refreshJobs();
+        }
+
+        async function downloadData(jobId, format) {
+            try {
+                const response = await fetch(`/api/download/${jobId}?format=${format}`);
+                if (!response.ok) {
+                    let detail = 'Download failed';
+                    try {
+                        const err = await response.json();
+                        detail = err.detail || detail;
+                    } catch (_) {
+                        // Keep generic fallback for non-JSON error responses.
+                    }
+                    throw new Error(detail);
+                }
+                
+                const blob = await response.blob();
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+
+                const contentDisposition = response.headers.get('content-disposition') || '';
+                const utf8Match = contentDisposition.match(/filename\*=UTF-8''([^;]+)/i);
+                const plainMatch = contentDisposition.match(/filename="?([^";]+)"?/i);
+                const parsedName = utf8Match?.[1] ? decodeURIComponent(utf8Match[1]) : plainMatch?.[1];
+                a.download = (parsedName || `job_${jobId}.${format}`).trim();
+
+                document.body.appendChild(a);
+                a.click();
+                window.URL.revokeObjectURL(url);
+                document.body.removeChild(a);
+            } catch (error) {
+                alert('Download failed: ' + error.message);
+            }
+        }
+
+        async function previewData(jobId) {
+            try {
+                const response = await fetch(`/api/preview/${jobId}?limit=100`);
+                if (!response.ok) {
+                    let detail = 'Preview failed';
+                    try {
+                        const err = await response.json();
+                        detail = err.detail || detail;
+                    } catch (_) {
+                        // Keep generic fallback for non-JSON error responses.
+                    }
+                    throw new Error(detail);
+                }
+                
+                const data = await response.json();
+                showPreviewModal(data);
+            } catch (error) {
+                alert('Preview failed: ' + error.message);
+            }
+        }
+
+        function showPreviewModal(data) {
+            const modal = document.getElementById('previewModal');
+            const content = document.getElementById('previewContent');
+            
+            if (!data.data || data.data.length === 0) {
+                content.innerHTML = '<p style="color: var(--text-dim);">No data available</p>';
+            } else {
+                let html = `
+                    <div style="margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
+                        <p style="font-size: 12px; color: var(--text-dim);">
+                            Showing ${data.row_count} of records | Columns: ${data.total_columns}
+                        </p>
+                    </div>
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                ${data.columns.map(col => `<th>${col}</th>`).join('')}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${data.data.map(row => `
+                                <tr>
+                                    ${data.columns.map(col => `
+                                        <td title="${JSON.stringify(row[col])}">
+                                            ${typeof row[col] === 'object' ? JSON.stringify(row[col]).substring(0, 50) : String(row[col]).substring(0, 50)}
+                                        </td>
+                                    `).join('')}
+                                </tr>
+                            `).join('')}
+                        </tbody>
+                    </table>
+                `;
+                content.innerHTML = html;
+            }
+            
+            modal.classList.add('show');
+        }
+
+        function closePreview() {
+            document.getElementById('previewModal').classList.remove('show');
+        }
+
+        function toggleFormatMenu(jobId, event) {
+            event.stopPropagation();
+            const menu = document.getElementById(`format-menu-${jobId}`);
+            if (menu) {
+                menu.classList.toggle('visible');
+            }
+        }
+
+        async function refreshJobs() {
+            const response = await fetch('/api/jobs');
+            const jobs = await response.json();
+            const container = document.getElementById('job_container');
+            container.innerHTML = '';
+
+            let totalCount = 0;
+
+            jobs.forEach(job => {
+                totalCount += job.total_records || 0;
+                const row = document.createElement('div');
+                row.className = 'task-row animate__animated animate__fadeIn';
+                
+                const statusClass = `status-${job.status}`;
+                
+                let actionHtml = '-';
+                if (job.status === 'completed') {
+                    actionHtml = `
+                        <div class="action-buttons" style="position: relative;">
+                            <button class="btn-small primary" onclick="previewData('${job.id}')">PREVIEW</button>
+                            <button class="btn-small" onclick="toggleFormatMenu('${job.id}', event)">DOWNLOAD ▼</button>
+                            <div id="format-menu-${job.id}" class="format-menu" style="position: absolute; top: 100%; right: 0; margin-top: 4px;">
+                                ${FORMATS.map(fmt => 
+                                    `<div class="format-option" onclick="downloadData('${job.id}', '${fmt}')">${fmt.toUpperCase()}</div>`
+                                ).join('')}
+                            </div>
+                        </div>
+                    `;
+                } else if (job.status === 'processing') {
+                    actionHtml = `<span style="color: var(--text-dim); font-size: 12px;">Processing...</span>`;
+                } else if (job.status === 'failed') {
+                    actionHtml = `<span style="color: var(--error); font-size: 12px;">${job.error || 'Failed'}</span>`;
+                }
+
+                row.innerHTML = `
+                    <div>
+                        <div style="font-weight: 600; font-size: 14px; margin-bottom: 4px;">${job.query || 'Auto structured scrape'}</div>
+                        <div style="font-size: 11px; color: var(--text-dim); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 300px;">${job.url}</div>
+                    </div>
+                    <div><span class="status-pill ${statusClass}">${job.status}</span></div>
+                    <div style="font-family: 'JetBrains Mono'; font-weight: 500;">${job.total_records}</div>
+                    <div style="font-size: 13px; color: var(--text-dim);">${job.created_at}</div>
+                    <div>${actionHtml}</div>
+                `;
+                container.appendChild(row);
+            });
+
+            document.getElementById('total_processed').innerText = totalCount.toLocaleString();
+        }
+
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            document.querySelectorAll('.format-menu.visible').forEach(menu => {
+                if (!menu.parentElement.contains(event.target)) {
+                    menu.classList.remove('visible');
+                }
+            });
+        });
+
+        // Auto-refresh every 5 seconds
+        setInterval(refreshJobs, 5000);
+        refreshJobs();
+    </script>
+</body>
+</html>

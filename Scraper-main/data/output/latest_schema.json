@@ -1,0 +1,14 @@
+{
+  "name": "str|null",
+  "description": "str|null",
+  "price": "float|null",
+  "currency": "str|null",
+  "rating": "float|null",
+  "reviews_count": "int|null",
+  "availability": "str|null",
+  "url": "str|null",
+  "image_url": "str|null",
+  "source": "str|null",
+  "scraped_at": "datetime|null",
+  "confidence": "float|null"
+}

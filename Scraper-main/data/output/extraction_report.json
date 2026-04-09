@@ -1,0 +1,23 @@
+{
+  "total_rows_seen": 23,
+  "valid_rows": 20,
+  "dropped_rows": 2,
+  "duplicate_rows": 1,
+  "extraction_success_rate": 86.96,
+  "avg_confidence_score": 0.7273,
+  "duplicate_rate": 4.35,
+  "null_field_percentage": {
+    "name": 0.0,
+    "description": 100.0,
+    "price": 0.0,
+    "currency": 95.0,
+    "rating": 5.0,
+    "reviews_count": 15.0,
+    "availability": 95.0,
+    "url": 0.0,
+    "image_url": 5.0,
+    "source": 0.0,
+    "scraped_at": 0.0
+  },
+  "generated_at": "2026-04-01T13:34:02.666547+00:00"
+}

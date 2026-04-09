@@ -1,0 +1,55 @@
+
+I’m implementing this as a concrete production blueprint document in the repo with architecture, schemas, worker model, pseudocode, migration phases, and compatibility guarantees so you can execute it directly.
+
+Created ARCHITECTURE_UPGRADE_PLAN.md
+
+Implemented as a concrete production blueprint document with all required sections and implementation-level detail.
+
+Primary deliverable:
+
+ARCHITECTURE_UPGRADE_PLAN.md
+What is included inside:
+
+New architecture diagram:
+Control plane, data plane, knowledge plane, observability plane, and platform services.
+Explicit service boundaries and event-driven execution path.
+Updated folder structure:
+New modules for orchestrator, worker roles, knowledge registry, fingerprinting, contracts, queue, persistence, anti-bot, analytics, and compatibility adapters.
+Key module designs:
+Site Profile Registry with versioning and rollback.
+Multi-pass extraction controller with field-level retry triggers.
+LLM-assisted structuring design replacing blind raw extraction fallback behavior.
+Platform detection layer integrated with strategy selection.
+Layout fingerprinting and cross-domain strategy reuse.
+Distributed queue model and stage-based worker communication.
+Persistent job store, anti-bot upgrade, contract engine, observability intelligence, and delta tracking.
+Critical pseudocode and code skeletons:
+Pass controller orchestration logic.
+Profile learning and rollback logic.
+Platform detection heuristics.
+Queue message schema.
+Contract engine interface.
+Database schemas:
+jobs
+task_runs
+job_metrics
+site_profiles
+site_profile_versions
+layout_fingerprints
+extraction_deltas
+Includes indexes, constraints, idempotency keys, and lifecycle metadata.
+End-to-end data flow:
+Submission to orchestration to staged execution to multi-pass recovery to contract validation to export to webhook to profile learning and delta update.
+Migration plan:
+Phased rollout from current system with backward compatibility preserved.
+Feature flags and safe cutover path.
+Legacy adapter strategy so current APIs continue to work while infrastructure evolves.
+Also included:
+
+Deployment fixes, including API and worker role split and container command alignment.
+Concrete first sprint plan with high-impact implementation sequence.
+If you want, next I can execute phase 1 directly in code now:
+
+Add PostgreSQL models and repositories for jobs and task_runs.
+Replace in-memory jobs in api.py with durable storage plus queue producer.
+Add Redis Streams bus and orchestrator skeleton.

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Universal Scraper</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  width: 380px;
+  min-height: 530px;
+  font-family: "Segoe UI", sans-serif;
+  background: #091018;
+  color: #e6edf3;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  padding: 14px;
+  border-bottom: 1px solid #223041;
+  background: linear-gradient(120deg, #112033, #0f1a26);
+}
+h1 { font-size: 14px; font-weight: 700; letter-spacing: 0.03em; }
+.sub { font-size: 11px; color: #8ea4be; margin-top: 4px; }
+
+.url-bar {
+  margin: 10px 14px;
+  border: 1px solid #27384b;
+  border-radius: 8px;
+  background: #111c29;
+  padding: 7px 10px;
+  color: #9ab1cc;
+  font-size: 11px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chat {
+  flex: 1;
+  margin: 0 14px;
+  border: 1px solid #223041;
+  border-radius: 8px;
+  background: #0c151f;
+  padding: 10px;
+  max-height: 180px;
+  overflow-y: auto;
+}
+
+.msg {
+  margin-bottom: 8px;
+  padding: 7px 9px;
+  border-radius: 8px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+.msg.bot { background: #1b2838; border: 1px solid #2a3b4e; }
+.msg.user { background: #1f6feb; }
+
+.controls {
+  padding: 12px 14px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+
+input, select, textarea {
+  width: 100%;
+  border: 1px solid #2a3b4e;
+  background: #111c29;
+  color: #e6edf3;
+  border-radius: 7px;
+  padding: 7px 9px;
+  font-size: 12px;
+  outline: none;
+}
+
+textarea { resize: none; }
+
+button {
+  border: 0;
+  background: linear-gradient(135deg, #238636, #2a9d4b);
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:disabled { opacity: 0.6; cursor: not-allowed; }
+</style>
+</head>
+<body>
+<header>
+  <h1>UNIVERSAL SCRAPER</h1>
+  <div class="sub">Any domain • High speed • Structured output</div>
+</header>
+
+<div class="url-bar" id="url-bar">Loading active tab...</div>
+<div class="chat" id="scrape-chat"></div>
+
+<div class="controls">
+  <textarea id="query" rows="2" placeholder="What should be extracted from this page?"></textarea>
+
+  <div class="grid2">
+    <input id="brand" type="text" placeholder="Brand (optional)">
+    <input id="rating" type="number" step="0.1" min="0" max="5" placeholder="Min rating">
+  </div>
+
+  <div class="grid2">
+    <input id="min-price" type="number" min="0" placeholder="Min price">
+    <input id="max-price" type="number" min="0" placeholder="Max price">
+  </div>
+
+  <div class="grid2">
+    <input id="pages" type="number" min="1" max="200" value="10" placeholder="Pages">
+    <select id="format">
+      <option value="csv">CSV</option>
+      <option value="json">JSON</option>
+      <option value="xlsx">Excel</option>
+      <option value="parquet">Parquet</option>
+    </select>
+  </div>
+
+  <button id="run-btn">RUN EXTRACTION</button>
+</div>
+
+<script src="popup.js"></script>
+</body>
+</html>

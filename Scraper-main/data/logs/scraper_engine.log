@@ -1,0 +1,742 @@
+2026-03-27 14:32:41,522 | ERROR | API_PLATFORM | Job 242da1ae-5f45-4d05-945e-71310aaf2fa7 failed: 
+2026-03-27 14:33:00,614 | ERROR | API_PLATFORM | Job 291991e7-b0ff-41df-babc-73ed8b6d3ee2 failed: 
+2026-03-27 14:33:03,752 | ERROR | API_PLATFORM | Job 71ab5950-4e49-40f1-bc84-2adc6cff5a19 failed: 
+2026-03-27 14:34:34,211 | ERROR | API_PLATFORM | Job cc6a78f4-622e-436c-93a8-363b1a0deb13 failed: 
+Traceback (most recent call last):
+  File "G:\IAI\Scraper-main\Scraper-main\api.py", line 44, in run_scraper_job
+    result = await agent.run_task(
+             ^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "G:\IAI\Scraper-main\Scraper-main\agents\universal_agent.py", line 25, in run_task
+    async with BrowserManager(headless=True) as bm:
+               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "G:\IAI\Scraper-main\Scraper-main\core\browser_manager.py", line 21, in __aenter__
+    self.playwright = await async_playwright().start()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\IAI\Scraper-main\Scraper-main\venv\Lib\site-packages\playwright\async_api\_context_manager.py", line 51, in start
+    return await self.__aenter__()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\IAI\Scraper-main\Scraper-main\venv\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "G:\IAI\Scraper-main\Scraper-main\venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\LENOVO\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        stderr=stderr, **kwds)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 1798, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        protocol, popen_args, False, stdin, stdout, stderr,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        bufsize, **kwargs)
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 533, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+
+2026-03-27 14:35:43,915 | ERROR | API_PLATFORM | Job 9c09eb81-97c9-40ca-ad59-0898ec9d34a7 failed: 
+Traceback (most recent call last):
+  File "G:\IAI\Scraper-main\Scraper-main\api.py", line 48, in run_scraper_job
+    result = await agent.run_task(
+             ^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "G:\IAI\Scraper-main\Scraper-main\agents\universal_agent.py", line 25, in run_task
+    async with BrowserManager(headless=True) as bm:
+               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "G:\IAI\Scraper-main\Scraper-main\core\browser_manager.py", line 21, in __aenter__
+    self.playwright = await async_playwright().start()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\IAI\Scraper-main\Scraper-main\venv\Lib\site-packages\playwright\async_api\_context_manager.py", line 51, in start
+    return await self.__aenter__()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\IAI\Scraper-main\Scraper-main\venv\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "G:\IAI\Scraper-main\Scraper-main\venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\LENOVO\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        stderr=stderr, **kwds)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 1798, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        protocol, popen_args, False, stdin, stdout, stderr,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        bufsize, **kwargs)
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 533, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+
+2026-03-27 14:36:38,410 | ERROR | API_PLATFORM | Job 99ac2ca7-23b7-42c2-9bda-b83aaff2fbd4 failed: 
+Traceback (most recent call last):
+  File "G:\IAI\Scraper-main\Scraper-main\api.py", line 50, in run_scraper_job
+    result = await agent.run_task(
+             ^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "G:\IAI\Scraper-main\Scraper-main\agents\universal_agent.py", line 25, in run_task
+    async with BrowserManager(headless=True) as bm:
+               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "G:\IAI\Scraper-main\Scraper-main\core\browser_manager.py", line 21, in __aenter__
+    self.playwright = await async_playwright().start()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\IAI\Scraper-main\Scraper-main\venv\Lib\site-packages\playwright\async_api\_context_manager.py", line 51, in start
+    return await self.__aenter__()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\IAI\Scraper-main\Scraper-main\venv\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "G:\IAI\Scraper-main\Scraper-main\venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\LENOVO\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        stderr=stderr, **kwds)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 1798, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        protocol, popen_args, False, stdin, stdout, stderr,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        bufsize, **kwargs)
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 533, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+
+2026-03-27 14:37:38,250 | INFO | agents.universal_agent | Target Classified: ecommerce
+2026-03-27 14:37:38,363 | INFO | agents.universal_agent | Navigating to https://www.amazon.in/s?k=power+bank&high-price=2500 (Mode: ecommerce)
+2026-03-27 14:37:44,986 | ERROR | API_PLATFORM | Job 528d7340-c5b4-47a7-b811-32cff8b3bc23 failed: Page.evaluate: TypeError: Cannot read properties of undefined (reading 'length')
+    at eval (eval at evaluate (:290:30), <anonymous>:23:64)
+    at NodeList.forEach (<anonymous>)
+    at findRepeatedStructures (eval at evaluate (:290:30), <anonymous>:10:21)
+    at eval (eval at evaluate (:290:30), <anonymous>:49:20)
+    at UtilityScript.evaluate (<anonymous>:297:18)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Traceback (most recent call last):
+  File "G:\IAI\Scraper-main\Scraper-main\api.py", line 56, in run_scraper_job
+    result, agent = asyncio.run(_execute())
+                    ~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "G:\IAI\Scraper-main\Scraper-main\api.py", line 47, in _execute
+    result = await agent.run_task(
+             ^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "G:\IAI\Scraper-main\Scraper-main\agents\universal_agent.py", line 47, in run_task
+    raw_items = await extractor.extract_patterns(site_type)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\IAI\Scraper-main\Scraper-main\extractors\dom_clustering.py", line 70, in extract_patterns
+    candidates = await self.page.evaluate(js_code)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\IAI\Scraper-main\Scraper-main\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8567, in evaluate
+    await self._impl_obj.evaluate(
+        expression=expression, arg=mapping.to_impl(arg)
+    )
+  File "G:\IAI\Scraper-main\Scraper-main\venv\Lib\site-packages\playwright\_impl\_page.py", line 464, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\IAI\Scraper-main\Scraper-main\venv\Lib\site-packages\playwright\_impl\_frame.py", line 320, in evaluate
+    await self._channel.send(
+    ...<6 lines>...
+    )
+  File "G:\IAI\Scraper-main\Scraper-main\venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "G:\IAI\Scraper-main\Scraper-main\venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.evaluate: TypeError: Cannot read properties of undefined (reading 'length')
+    at eval (eval at evaluate (:290:30), <anonymous>:23:64)
+    at NodeList.forEach (<anonymous>)
+    at findRepeatedStructures (eval at evaluate (:290:30), <anonymous>:10:21)
+    at eval (eval at evaluate (:290:30), <anonymous>:49:20)
+    at UtilityScript.evaluate (<anonymous>:297:18)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+
+2026-03-27 14:40:30,455 | INFO | agents.universal_agent | Target Classified: ecommerce
+2026-03-27 14:40:30,546 | INFO | agents.universal_agent | Navigating to https://www.amazon.in/s?k=power+bank&high-price=2500 (Mode: ecommerce)
+2026-03-27 14:40:37,329 | INFO | pipelines.data_stream | Pipeline: Processed 35 new records (Total: 35).
+2026-03-27 14:40:37,443 | INFO | agents.universal_agent | No next page detected. Task complete.
+2026-03-27 14:42:39,493 | INFO | agents.universal_agent | Target Classified: ecommerce
+2026-03-27 14:42:39,585 | INFO | agents.universal_agent | Navigating to https://www.amazon.in/s?k=power+bank&high-price=2500 (Mode: ecommerce)
+2026-03-27 14:42:47,588 | INFO | pipelines.data_stream | Pipeline: Processed 34 new records (Total: 34).
+2026-03-27 14:42:47,724 | INFO | agents.universal_agent | No next page detected. Task complete.
+2026-03-27 14:44:08,491 | INFO | agents.universal_agent | Target Classified: ecommerce
+2026-03-27 14:44:08,592 | INFO | agents.universal_agent | Navigating to https://www.amazon.in/s?k=power+bank&high-price=2500 (Mode: ecommerce)
+2026-03-27 14:44:13,102 | INFO | pipelines.data_stream | Pipeline: Processed 34 new records (Total: 34).
+2026-03-27 14:44:13,341 | INFO | agents.universal_agent | No next page detected. Task complete.
+2026-03-27 14:46:26,840 | INFO | agents.universal_agent | Target Classified: ecommerce
+2026-03-27 14:46:26,937 | INFO | agents.universal_agent | Navigating to https://www.amazon.in/s?k=power+bank&high-price=2500 (Mode: ecommerce)
+2026-03-27 14:46:30,377 | INFO | pipelines.data_stream | Pipeline: Processed 35 new records (Total: 35).
+2026-03-27 14:46:30,507 | INFO | agents.universal_agent | No next page detected. Task complete.
+2026-03-27 14:47:29,819 | INFO | agents.universal_agent | Target Classified: ecommerce
+2026-03-27 14:47:29,904 | INFO | agents.universal_agent | Navigating to https://www.amazon.in/s?k=power+bank&high-price=2500 (Mode: ecommerce)
+2026-03-27 14:47:34,357 | INFO | pipelines.data_stream | Pipeline: Processed 35 new records (Total: 35).
+2026-03-27 14:47:34,462 | INFO | agents.universal_agent | No next page detected. Task complete.
+2026-03-27 14:48:26,376 | INFO | agents.universal_agent | Target Classified: ecommerce
+2026-03-27 14:48:26,464 | INFO | agents.universal_agent | Navigating to https://www.amazon.in/s?k=power+bank&high-price=2500 (Mode: ecommerce)
+2026-03-27 14:48:29,088 | ERROR | agents.universal_agent | All extraction layers failed on this page.
+2026-03-27 14:50:03,220 | INFO | agents.universal_agent | Target Classified: ecommerce
+2026-03-27 14:50:03,307 | INFO | agents.universal_agent | Navigating to https://www.amazon.in/s?k=power+bank&high-price=2500 (Mode: ecommerce)
+2026-03-27 14:50:06,886 | ERROR | agents.universal_agent | All extraction layers failed on this page.
+2026-03-27 14:52:43,363 | INFO | agents.universal_agent | Target Classified: ecommerce
+2026-03-27 14:52:43,464 | INFO | agents.universal_agent | Navigating to https://www.amazon.in/s?k=power+bank&high-price=2500 (Mode: ecommerce)
+2026-03-27 14:52:49,350 | INFO | agents.universal_agent | Content rendered, starting extraction.
+2026-03-27 14:52:49,427 | ERROR | agents.universal_agent | All extraction layers failed on this page.
+2026-03-27 14:54:44,719 | INFO | agents.universal_agent | Target Classified: ecommerce
+2026-03-27 14:54:44,829 | INFO | agents.universal_agent | Navigating to https://www.amazon.in/s?k=power+bank&high-price=2500 (Mode: ecommerce)
+2026-03-27 14:54:52,995 | INFO | agents.universal_agent | Content rendered, starting extraction.
+2026-03-27 14:54:53,034 | ERROR | agents.universal_agent | All extraction layers failed on this page.
+2026-03-28 09:41:48,568 | ERROR | API_PLATFORM | Job e1da0eca-38c0-450f-9835-4a41f0147e1c failed: could not convert string to float: ''
+Traceback (most recent call last):
+  File "G:\IAI\Scraper-main\Scraper-main\api.py", line 60, in run_scraper_job
+    result, agent = asyncio.run(_execute())
+                    ~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "G:\IAI\Scraper-main\Scraper-main\api.py", line 48, in _execute
+    result = await agent.run_task(
+             ^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\IAI\Scraper-main\Scraper-main\agents\universal_agent.py", line 72, in run_task
+    filtered_url = await strategy.apply_filters(start_url, filters)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\IAI\Scraper-main\Scraper-main\strategies\ecommerce.py", line 88, in apply_filters
+    qs["low-price"] = [str(int(float(price_min)))]
+                               ~~~~~^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2026-03-28 09:42:19,601 | ERROR | API_PLATFORM | Job b0350e5b-05f9-4488-91a2-44624d1cc6bf failed: could not convert string to float: ''
+Traceback (most recent call last):
+  File "G:\IAI\Scraper-main\Scraper-main\api.py", line 60, in run_scraper_job
+    result, agent = asyncio.run(_execute())
+                    ~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "G:\IAI\Scraper-main\Scraper-main\api.py", line 48, in _execute
+    result = await agent.run_task(
+             ^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\IAI\Scraper-main\Scraper-main\agents\universal_agent.py", line 72, in run_task
+    filtered_url = await strategy.apply_filters(start_url, filters)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\IAI\Scraper-main\Scraper-main\strategies\ecommerce.py", line 88, in apply_filters
+    qs["low-price"] = [str(int(float(price_min)))]
+                               ~~~~~^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+
+2026-03-28 09:44:22,728 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://www.amazon.in/s?k=iphone
+2026-03-28 09:44:22,827 | INFO | pipelines.data_stream | Pipeline emitted 30 records (total=30)
+2026-03-28 09:44:22,827 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=31 emitted=30
+2026-03-28 10:39:07,417 | ERROR | API_PLATFORM | Job f1c1ca77-c0c1-4510-951b-8647d93ffd7c failed: HTTPSConnectionPool(host='openaipublic.blob.core.windows.net', port=443): Max retries exceeded with url: /encodings/o200k_base.tiktoken (Caused by NameResolutionError("HTTPSConnection(host='openaipublic.blob.core.windows.net', port=443): Failed to resolve 'openaipublic.blob.core.windows.net' ([Errno 11001] getaddrinfo failed)"))
+Traceback (most recent call last):
+  File "G:\IAI\Scraper-main\Scraper-main\.venv\Lib\site-packages\urllib3\connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "G:\IAI\Scraper-main\Scraper-main\.venv\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Python\pythoncore-3.14-64\Lib\socket.py", line 983, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\IAI\Scraper-main\Scraper-main\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "G:\IAI\Scraper-main\Scraper-main\.venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "G:\IAI\Scraper-main\Scraper-main\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "G:\IAI\Scraper-main\Scraper-main\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "G:\IAI\Scraper-main\Scraper-main\.venv\Lib\site-packages\urllib3\connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "G:\IAI\Scraper-main\Scraper-main\.venv\Lib\site-packages\urllib3\connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='openaipublic.blob.core.windows.net', port=443): Failed to resolve 'openaipublic.blob.core.windows.net' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\IAI\Scraper-main\Scraper-main\.venv\Lib\site-packages\requests\adapters.py", line 645, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "G:\IAI\Scraper-main\Scraper-main\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "G:\IAI\Scraper-main\Scraper-main\.venv\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='openaipublic.blob.core.windows.net', port=443): Max retries exceeded with url: /encodings/o200k_base.tiktoken (Caused by NameResolutionError("HTTPSConnection(host='openaipublic.blob.core.windows.net', port=443): Failed to resolve 'openaipublic.blob.core.windows.net' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\IAI\Scraper-main\Scraper-main\api.py", line 76, in run_scraper_job
+    result, agent = asyncio.run(_execute())
+                    ~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "G:\IAI\Scraper-main\Scraper-main\api.py", line 53, in _execute
+    agent = UniversalScraperAgent(
+        llm_api_key=os.getenv("OPENAI_API_KEY"),
+        groq_api_key=os.getenv("GROQ_API_KEY"),
+    )
+  File "G:\IAI\Scraper-main\Scraper-main\agents\universal_agent.py", line 35, in __init__
+    self.llm_extractor = LLMFallbackExtractor(api_key=llm_api_key) if llm_api_key else None
+                         ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "G:\IAI\Scraper-main\Scraper-main\extractors\llm_fallback.py", line 22, in __init__
+    self.encoding = tiktoken.encoding_for_model(model)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "G:\IAI\Scraper-main\Scraper-main\.venv\Lib\site-packages\tiktoken\model.py", line 118, in encoding_for_model
+    return get_encoding(encoding_name_for_model(model_name))
+  File "G:\IAI\Scraper-main\Scraper-main\.venv\Lib\site-packages\tiktoken\registry.py", line 86, in get_encoding
+    enc = Encoding(**constructor())
+                     ~~~~~~~~~~~^^
+  File "G:\IAI\Scraper-main\Scraper-main\.venv\Lib\site-packages\tiktoken_ext\openai_public.py", line 96, in o200k_base
+    mergeable_ranks = load_tiktoken_bpe(
+        "https://openaipublic.blob.core.windows.net/encodings/o200k_base.tiktoken",
+        expected_hash="446a9538cb6c348e3516120d7c08b09f57c36495e2acfffe59a5bf8b0cfb1a2d",
+    )
+  File "G:\IAI\Scraper-main\Scraper-main\.venv\Lib\site-packages\tiktoken\load.py", line 162, in load_tiktoken_bpe
+    contents = read_file_cached(tiktoken_bpe_file, expected_hash)
+  File "G:\IAI\Scraper-main\Scraper-main\.venv\Lib\site-packages\tiktoken\load.py", line 67, in read_file_cached
+    contents = read_file(blobpath)
+  File "G:\IAI\Scraper-main\Scraper-main\.venv\Lib\site-packages\tiktoken\load.py", line 17, in read_file
+    resp = requests.get(blobpath)
+  File "G:\IAI\Scraper-main\Scraper-main\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "G:\IAI\Scraper-main\Scraper-main\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\IAI\Scraper-main\Scraper-main\.venv\Lib\site-packages\requests\sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+  File "G:\IAI\Scraper-main\Scraper-main\.venv\Lib\site-packages\requests\sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+  File "G:\IAI\Scraper-main\Scraper-main\.venv\Lib\site-packages\requests\adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='openaipublic.blob.core.windows.net', port=443): Max retries exceeded with url: /encodings/o200k_base.tiktoken (Caused by NameResolutionError("HTTPSConnection(host='openaipublic.blob.core.windows.net', port=443): Failed to resolve 'openaipublic.blob.core.windows.net' ([Errno 11001] getaddrinfo failed)"))
+
+2026-03-28 10:39:25,429 | INFO | UNIVERSAL_SCRAPER | Initializing extraction for https://www.ebay.com/sch/i.html?_nkw=iphone with query 'iphone'
+2026-03-28 10:39:35,354 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://www.ebay.com/sch/i.html?_nkw=iphone&q=iphone
+2026-03-28 10:39:36,262 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=1)
+2026-03-28 10:39:37,600 | INFO | UNIVERSAL_SCRAPER | Extraction complete
+2026-03-28 10:39:37,600 | INFO | UNIVERSAL_SCRAPER | Total records: 1
+2026-03-28 10:39:37,601 | INFO | UNIVERSAL_SCRAPER | Pages scraped: 1
+2026-03-28 10:39:37,601 | INFO | UNIVERSAL_SCRAPER | Site type: ecommerce
+2026-03-28 10:39:37,601 | INFO | UNIVERSAL_SCRAPER | Output: data\output\scrape_session_20260328_103936.json
+2026-03-28 10:39:37,602 | INFO | UNIVERSAL_SCRAPER | Records/sec: 0.1 | LLM calls: 0
+2026-03-28 10:39:37,602 | INFO | UNIVERSAL_SCRAPER | Discovered 9 hidden JSON APIs
+2026-04-01 14:29:14,224 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://www.amazon.in/s?k=iphone
+2026-04-01 14:29:14,241 | INFO | agents.universal_agent | DOM extraction layout=unknown candidates=0 emitted=0
+2026-04-01 14:29:18,414 | ERROR | extractors.llm_fallback | LLM fallback failed: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your_ope************here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-04-01 14:30:35,180 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://www.amazon.in/s?k=iphone
+2026-04-01 14:30:35,581 | ERROR | extractors.groq_structurer | Groq structuring failed: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-04-01 14:30:35,597 | INFO | pipelines.data_stream | Pipeline emitted 30 records (total=30)
+2026-04-01 14:30:35,597 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=31 emitted=30
+2026-04-01 14:30:37,190 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=31)
+2026-04-01 14:30:44,017 | ERROR | extractors.groq_structurer | Groq structuring failed: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-04-01 14:30:44,023 | INFO | pipelines.data_stream | Pipeline emitted 27 records (total=58)
+2026-04-01 14:30:44,024 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=33 emitted=27
+2026-04-01 14:35:33,691 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://www.amazon.in/s?k=iphone
+2026-04-01 14:35:34,828 | ERROR | extractors.groq_structurer | Groq structuring failed: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-04-01 14:35:34,843 | INFO | pipelines.data_stream | Pipeline emitted 29 records (total=29)
+2026-04-01 14:35:34,844 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=29 emitted=29
+2026-04-01 14:35:36,091 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=30)
+2026-04-01 14:35:43,839 | ERROR | extractors.groq_structurer | Groq structuring failed: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-04-01 14:35:43,846 | INFO | pipelines.data_stream | Pipeline emitted 27 records (total=57)
+2026-04-01 14:35:43,846 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=33 emitted=27
+2026-04-01 14:38:53,217 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://www.amazon.in/s?k=iphone
+2026-04-01 14:38:53,230 | INFO | agents.universal_agent | DOM extraction layout=unknown candidates=0 emitted=0
+2026-04-01 14:38:54,538 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://www.amazon.in/s?k=iphone
+2026-04-01 14:38:54,679 | ERROR | extractors.llm_fallback | LLM fallback failed: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-or-v1*************************************************************1653. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+2026-04-01 14:38:55,213 | ERROR | extractors.groq_structurer | Groq structuring failed: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-04-01 14:38:55,220 | INFO | pipelines.data_stream | Pipeline emitted 31 records (total=31)
+2026-04-01 14:38:55,220 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=31 emitted=31
+2026-04-01 14:38:57,408 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=32)
+2026-04-01 14:39:07,714 | ERROR | extractors.groq_structurer | Groq structuring failed: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-04-01 14:39:07,721 | INFO | pipelines.data_stream | Pipeline emitted 27 records (total=59)
+2026-04-01 14:39:07,721 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=33 emitted=27
+2026-04-01 14:41:16,371 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://www.amazon.in/s?k=iphone
+2026-04-01 14:41:16,641 | INFO | pipelines.data_stream | Pipeline emitted 30 records (total=30)
+2026-04-01 14:41:16,642 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=31 emitted=30
+2026-04-01 14:41:18,383 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=31)
+2026-04-01 14:41:28,472 | INFO | pipelines.data_stream | Pipeline emitted 27 records (total=58)
+2026-04-01 14:41:28,472 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=33 emitted=27
+2026-04-01 14:43:41,877 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://www.amazon.in/s?k=iphone
+2026-04-01 14:43:41,973 | INFO | pipelines.data_stream | Pipeline emitted 31 records (total=31)
+2026-04-01 14:43:41,973 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=32 emitted=31
+2026-04-01 14:43:43,147 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=32)
+2026-04-01 14:43:48,470 | INFO | pipelines.data_stream | Pipeline emitted 28 records (total=60)
+2026-04-01 14:43:48,470 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=33 emitted=28
+2026-04-01 14:43:54,833 | INFO | pipelines.data_stream | Pipeline emitted 2 records (total=62)
+2026-04-01 14:43:54,834 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=33 emitted=2
+2026-04-01 14:44:12,355 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://www.amazon.in/s?k=iphone
+2026-04-01 14:44:12,576 | INFO | pipelines.data_stream | Pipeline emitted 30 records (total=30)
+2026-04-01 14:44:12,577 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=31 emitted=30
+2026-04-01 14:44:13,987 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=31)
+2026-04-01 14:44:21,336 | INFO | pipelines.data_stream | Pipeline emitted 26 records (total=57)
+2026-04-01 14:44:21,336 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=32 emitted=26
+2026-04-01 14:55:33,981 | WARNING | UNIVERSAL_SCRAPER | GROQ_API_KEY not found. Groq name structuring will be disabled.
+2026-04-01 14:55:34,867 | INFO | UNIVERSAL_SCRAPER | Initializing extraction for https://www.amazon.in/s?k=iphone with query 'iphone'
+2026-04-01 14:55:45,534 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://www.amazon.in/s?k=iphone
+2026-04-01 14:55:45,706 | INFO | pipelines.data_stream | Pipeline dropped batch (seen=1 dropped=1 duplicates=0)
+2026-04-01 14:55:49,625 | INFO | pipelines.data_stream | Pipeline emitted 10 records (total=10, dropped=2)
+2026-04-01 14:55:49,625 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=21 emitted=10
+2026-04-01 14:55:52,059 | INFO | UNIVERSAL_SCRAPER | Extraction complete
+2026-04-01 14:55:52,059 | INFO | UNIVERSAL_SCRAPER | Total records: 10
+2026-04-01 14:55:52,060 | INFO | UNIVERSAL_SCRAPER | Pages scraped: 1
+2026-04-01 14:55:52,060 | INFO | UNIVERSAL_SCRAPER | Site type: ecommerce
+2026-04-01 14:55:52,060 | INFO | UNIVERSAL_SCRAPER | Output: data\output\scrape_session_20260401_145549.csv
+2026-04-01 14:55:52,061 | INFO | UNIVERSAL_SCRAPER | Records/sec: 0.73 | LLM calls: 0
+2026-04-01 14:55:52,061 | INFO | UNIVERSAL_SCRAPER | Discovered 6 hidden JSON APIs
+2026-04-01 14:57:11,721 | WARNING | UNIVERSAL_SCRAPER | GROQ_API_KEY not found. Groq name structuring will be disabled.
+2026-04-01 14:57:12,577 | INFO | UNIVERSAL_SCRAPER | Initializing extraction for https://www.amazon.in/s?k=iphone with query 'iphone'
+2026-04-01 14:57:19,192 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://www.amazon.in/s?k=iphone
+2026-04-01 14:57:19,314 | INFO | pipelines.data_stream | Pipeline dropped batch (seen=1 dropped=1 duplicates=0)
+2026-04-01 14:57:19,372 | INFO | pipelines.data_stream | Pipeline emitted 13 records (total=13, dropped=2)
+2026-04-01 14:57:19,372 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=22 emitted=13
+2026-04-01 14:57:20,939 | INFO | UNIVERSAL_SCRAPER | Extraction complete
+2026-04-01 14:57:20,939 | INFO | UNIVERSAL_SCRAPER | Total records: 13
+2026-04-01 14:57:20,940 | INFO | UNIVERSAL_SCRAPER | Pages scraped: 1
+2026-04-01 14:57:20,940 | INFO | UNIVERSAL_SCRAPER | Site type: ecommerce
+2026-04-01 14:57:20,940 | INFO | UNIVERSAL_SCRAPER | Output: data\output\scrape_session_20260401_145719.csv
+2026-04-01 14:57:20,940 | INFO | UNIVERSAL_SCRAPER | Records/sec: 2.28 | LLM calls: 0
+2026-04-01 14:57:20,940 | INFO | UNIVERSAL_SCRAPER | Discovered 5 hidden JSON APIs
+2026-04-01 14:58:44,472 | WARNING | UNIVERSAL_SCRAPER | GROQ_API_KEY not found. Groq name structuring will be disabled.
+2026-04-01 14:58:45,367 | INFO | UNIVERSAL_SCRAPER | Initializing extraction for https://www.amazon.in/s?k=iphone with query 'iphone'
+2026-04-01 14:58:53,302 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://www.amazon.in/s?k=iphone
+2026-04-01 14:58:53,456 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=1, dropped=0)
+2026-04-01 14:58:55,133 | INFO | UNIVERSAL_SCRAPER | Extraction complete
+2026-04-01 14:58:55,134 | INFO | UNIVERSAL_SCRAPER | Total records: 1
+2026-04-01 14:58:55,134 | INFO | UNIVERSAL_SCRAPER | Pages scraped: 1
+2026-04-01 14:58:55,134 | INFO | UNIVERSAL_SCRAPER | Site type: ecommerce
+2026-04-01 14:58:55,134 | INFO | UNIVERSAL_SCRAPER | Output: data\output\scrape_session_20260401_145853.csv
+2026-04-01 14:58:55,135 | INFO | UNIVERSAL_SCRAPER | Records/sec: 0.14 | LLM calls: 0
+2026-04-01 14:58:55,135 | INFO | UNIVERSAL_SCRAPER | Discovered 1 hidden JSON APIs
+2026-04-01 14:59:15,968 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://www.amazon.in/s?k=iphone
+2026-04-01 14:59:16,520 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=1, dropped=0)
+2026-04-01 14:59:17,207 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=2, dropped=0)
+2026-04-01 14:59:18,957 | INFO | pipelines.data_stream | Pipeline dropped batch (seen=1 dropped=0 duplicates=1)
+2026-04-01 14:59:24,295 | INFO | pipelines.data_stream | Pipeline emitted 19 records (total=21, dropped=2)
+2026-04-01 14:59:24,295 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=33 emitted=19
+2026-04-01 14:59:27,420 | WARNING | UNIVERSAL_SCRAPER | GROQ_API_KEY not found. Groq name structuring will be disabled.
+2026-04-01 14:59:28,235 | INFO | UNIVERSAL_SCRAPER | Initializing extraction for https://www.amazon.in/s?k=iphone with query 'iphone'
+2026-04-01 14:59:37,535 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://www.amazon.in/s?k=iphone
+2026-04-01 14:59:37,715 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=1, dropped=0)
+2026-04-01 14:59:39,561 | INFO | pipelines.data_stream | Pipeline dropped batch (seen=1 dropped=0 duplicates=1)
+2026-04-01 14:59:45,421 | INFO | pipelines.data_stream | Pipeline emitted 8 records (total=9, dropped=3)
+2026-04-01 14:59:45,421 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=21 emitted=8
+2026-04-01 14:59:46,790 | INFO | UNIVERSAL_SCRAPER | Extraction complete
+2026-04-01 14:59:46,791 | INFO | UNIVERSAL_SCRAPER | Total records: 9
+2026-04-01 14:59:46,791 | INFO | UNIVERSAL_SCRAPER | Pages scraped: 2
+2026-04-01 14:59:46,792 | INFO | UNIVERSAL_SCRAPER | Site type: ecommerce
+2026-04-01 14:59:46,792 | INFO | UNIVERSAL_SCRAPER | Output: data\output\scrape_session_20260401_145937.csv
+2026-04-01 14:59:46,792 | INFO | UNIVERSAL_SCRAPER | Records/sec: 0.56 | LLM calls: 0
+2026-04-01 14:59:46,793 | INFO | UNIVERSAL_SCRAPER | Discovered 5 hidden JSON APIs
+2026-04-01 15:00:50,690 | WARNING | UNIVERSAL_SCRAPER | GROQ_API_KEY not found. Groq name structuring will be disabled.
+2026-04-01 15:00:51,532 | INFO | UNIVERSAL_SCRAPER | Initializing extraction for https://www.amazon.in/s?k=smartphone with query 'smartphone'
+2026-04-01 15:00:56,982 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://www.amazon.in/s?k=smartphone
+2026-04-01 15:00:57,193 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=1, dropped=0)
+2026-04-01 15:00:59,265 | INFO | pipelines.data_stream | Pipeline dropped batch (seen=1 dropped=0 duplicates=1)
+2026-04-01 15:01:03,626 | INFO | pipelines.data_stream | Pipeline emitted 5 records (total=6, dropped=1)
+2026-04-01 15:01:03,627 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=15 emitted=5
+2026-04-01 15:01:04,925 | INFO | UNIVERSAL_SCRAPER | Extraction complete
+2026-04-01 15:01:04,926 | INFO | UNIVERSAL_SCRAPER | Total records: 6
+2026-04-01 15:01:04,926 | INFO | UNIVERSAL_SCRAPER | Pages scraped: 2
+2026-04-01 15:01:04,926 | INFO | UNIVERSAL_SCRAPER | Site type: ecommerce
+2026-04-01 15:01:04,927 | INFO | UNIVERSAL_SCRAPER | Output: data\output\scrape_session_20260401_150057.csv
+2026-04-01 15:01:04,927 | INFO | UNIVERSAL_SCRAPER | Records/sec: 0.56 | LLM calls: 0
+2026-04-01 15:01:04,927 | INFO | UNIVERSAL_SCRAPER | Discovered 5 hidden JSON APIs
+2026-04-01 15:32:34,886 | INFO | UNIVERSAL_SCRAPER | Starting FastAPI server on 0.0.0.0:8000
+2026-04-01 15:32:34,887 | INFO | UNIVERSAL_SCRAPER | Dashboard available at http://localhost:8000
+2026-04-01 15:32:52,286 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://www.amazon.in/s?k=iphone
+2026-04-01 15:32:52,342 | INFO | agents.universal_agent | DOM extraction layout=unknown candidates=0 emitted=0
+2026-04-01 15:32:54,034 | ERROR | extractors.llm_fallback | LLM fallback failed: Error code: 400 - {'error': {'message': 'mistral/mistral-7b is not a valid model ID', 'code': 400}, 'user_id': 'user_3BiHlAuqGYBN6ygEnUsRslFaeQi'}
+2026-04-01 15:36:11,773 | INFO | UNIVERSAL_SCRAPER | Starting FastAPI server on 0.0.0.0:8000
+2026-04-01 15:36:11,774 | INFO | UNIVERSAL_SCRAPER | Dashboard available at http://localhost:8000
+2026-04-01 15:36:35,460 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://www.amazon.in/s?k=iphone
+2026-04-01 15:36:35,888 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=1, dropped=0)
+2026-04-01 15:36:36,767 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=2, dropped=0)
+2026-04-01 15:36:38,415 | INFO | pipelines.data_stream | Pipeline dropped batch (seen=1 dropped=0 duplicates=1)
+2026-04-01 15:36:49,380 | INFO | pipelines.data_stream | Pipeline emitted 18 records (total=20, dropped=2)
+2026-04-01 15:36:49,380 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=32 emitted=18
+2026-04-01 15:37:07,117 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://books.toscrape.com/?q=books
+2026-04-01 15:37:07,134 | INFO | pipelines.data_stream | Pipeline dropped batch (seen=1 dropped=1 duplicates=0)
+2026-04-01 15:37:07,143 | INFO | agents.universal_agent | DOM extraction layout=unknown candidates=0 emitted=0
+2026-04-01 15:37:07,162 | INFO | extractors.llm_fallback | LLM fallback payload trimmed from 10337 to 5000 tokens
+2026-04-01 15:37:08,301 | ERROR | extractors.llm_fallback | LLM fallback failed: Error code: 400 - {'error': {'message': 'mistral/mistral-7b is not a valid model ID', 'code': 400}, 'user_id': 'user_3BiHlAuqGYBN6ygEnUsRslFaeQi'}
+2026-04-01 15:38:01,126 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://www.flipkart.com/search?q=shoes&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off
+2026-04-01 15:38:01,205 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=1, dropped=0)
+2026-04-01 15:38:02,257 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=2, dropped=0)
+2026-04-01 15:38:08,372 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=3, dropped=0)
+2026-04-01 15:38:08,925 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=4, dropped=0)
+2026-04-01 15:38:10,599 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=5, dropped=0)
+2026-04-01 15:39:29,074 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://books.toscrape.com/?q=books
+2026-04-01 15:39:29,099 | INFO | pipelines.data_stream | Pipeline dropped batch (seen=1 dropped=1 duplicates=0)
+2026-04-01 15:39:29,119 | INFO | agents.universal_agent | DOM extraction layout=unknown candidates=0 emitted=0
+2026-04-01 15:39:29,155 | INFO | extractors.llm_fallback | LLM fallback payload trimmed from 10337 to 5000 tokens
+2026-04-01 15:39:30,315 | ERROR | extractors.llm_fallback | LLM fallback failed: Error code: 400 - {'error': {'message': 'mistral/mistral-7b is not a valid model ID', 'code': 400}, 'user_id': 'user_3BiHlAuqGYBN6ygEnUsRslFaeQi'}
+2026-04-01 15:40:47,221 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://books.toscrape.com/?q=books
+2026-04-01 15:40:47,251 | INFO | pipelines.data_stream | Pipeline dropped batch (seen=1 dropped=1 duplicates=0)
+2026-04-01 15:40:47,260 | INFO | agents.universal_agent | DOM extraction layout=unknown candidates=0 emitted=0
+2026-04-01 15:40:47,283 | INFO | extractors.llm_fallback | LLM fallback payload trimmed from 10337 to 5000 tokens
+2026-04-01 15:40:48,520 | ERROR | extractors.llm_fallback | LLM fallback failed: Error code: 400 - {'error': {'message': 'mistral/mistral-7b is not a valid model ID', 'code': 400}, 'user_id': 'user_3BiHlAuqGYBN6ygEnUsRslFaeQi'}
+2026-04-01 15:42:39,687 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://books.toscrape.com/?q=books
+2026-04-01 15:42:39,734 | INFO | pipelines.data_stream | Pipeline dropped batch (seen=1 dropped=1 duplicates=0)
+2026-04-01 15:42:39,773 | INFO | pipelines.data_stream | Pipeline emitted 20 records (total=20, dropped=0)
+2026-04-01 15:42:39,774 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=20 emitted=20
+2026-04-01 15:44:07,850 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://books.toscrape.com/?q=books
+2026-04-01 15:44:07,870 | INFO | pipelines.data_stream | Pipeline dropped batch (seen=1 dropped=1 duplicates=0)
+2026-04-01 15:44:07,905 | INFO | pipelines.data_stream | Pipeline emitted 20 records (total=20, dropped=0)
+2026-04-01 15:44:07,905 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=20 emitted=20
+2026-04-01 15:44:41,618 | INFO | UNIVERSAL_SCRAPER | Starting FastAPI server on 0.0.0.0:8000
+2026-04-01 15:44:41,619 | INFO | UNIVERSAL_SCRAPER | Dashboard available at http://localhost:8000
+2026-04-01 15:45:18,465 | INFO | UNIVERSAL_SCRAPER | Starting FastAPI server on 0.0.0.0:8000
+2026-04-01 15:45:18,466 | INFO | UNIVERSAL_SCRAPER | Dashboard available at http://localhost:8000
+2026-04-01 15:45:52,129 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://books.toscrape.com/?q=books
+2026-04-01 15:45:52,147 | INFO | pipelines.data_stream | Pipeline dropped batch (seen=1 dropped=1 duplicates=0)
+2026-04-01 15:45:52,201 | INFO | pipelines.data_stream | Pipeline emitted 20 records (total=20, dropped=0)
+2026-04-01 15:45:52,201 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=20 emitted=20
+2026-04-01 15:46:33,970 | INFO | UNIVERSAL_SCRAPER | Starting FastAPI server on 0.0.0.0:8000
+2026-04-01 15:46:33,970 | INFO | UNIVERSAL_SCRAPER | Dashboard available at http://localhost:8000
+2026-04-01 15:47:08,261 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://books.toscrape.com/?q=books
+2026-04-01 15:47:08,275 | INFO | pipelines.data_stream | Pipeline dropped batch (seen=1 dropped=1 duplicates=0)
+2026-04-01 15:47:08,301 | INFO | pipelines.data_stream | Pipeline emitted 20 records (total=20, dropped=0)
+2026-04-01 15:47:08,301 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=20 emitted=20
+2026-04-01 15:47:28,425 | INFO | UNIVERSAL_SCRAPER | Starting FastAPI server on 0.0.0.0:8000
+2026-04-01 15:47:28,425 | INFO | UNIVERSAL_SCRAPER | Dashboard available at http://localhost:8000
+2026-04-01 15:47:48,601 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://www.amazon.in/s?k=iphone
+2026-04-01 15:47:48,822 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=1, dropped=0)
+2026-04-01 15:47:49,575 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=2, dropped=0)
+2026-04-01 15:47:51,058 | INFO | pipelines.data_stream | Pipeline dropped batch (seen=1 dropped=0 duplicates=1)
+2026-04-01 15:47:55,822 | INFO | pipelines.data_stream | Pipeline emitted 18 records (total=20, dropped=2)
+2026-04-01 15:47:55,822 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=31 emitted=18
+2026-04-01 18:12:34,168 | INFO | UNIVERSAL_SCRAPER | Starting FastAPI server on 0.0.0.0:8000
+2026-04-01 18:12:34,168 | INFO | UNIVERSAL_SCRAPER | Dashboard available at http://localhost:8000
+2026-04-01 18:13:14,179 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://www.amazon.in/s?i=home-improvement&rh=n%3A95174669031%2Cp_36%3A3444810031%2Cp_72%3A1318476031&_encoding=UTF8
+2026-04-01 18:13:14,343 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=1, dropped=0)
+2026-04-01 18:13:16,849 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=2, dropped=0)
+2026-04-01 18:13:17,415 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=3, dropped=0)
+2026-04-01 18:13:18,915 | INFO | pipelines.data_stream | Pipeline dropped batch (seen=1 dropped=0 duplicates=1)
+2026-04-01 18:13:25,751 | INFO | pipelines.data_stream | Pipeline emitted 22 records (total=25, dropped=2)
+2026-04-01 18:13:25,751 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=36 emitted=22
+2026-04-01 18:13:26,358 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=26, dropped=0)
+2026-04-01 18:13:27,786 | INFO | pipelines.data_stream | Pipeline dropped batch (seen=1 dropped=0 duplicates=1)
+2026-04-01 18:13:35,127 | INFO | pipelines.data_stream | Pipeline emitted 19 records (total=45, dropped=2)
+2026-04-01 18:13:35,127 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=36 emitted=19
+2026-04-01 18:13:35,632 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=46, dropped=0)
+2026-04-01 18:13:37,400 | INFO | pipelines.data_stream | Pipeline dropped batch (seen=1 dropped=0 duplicates=1)
+2026-04-01 18:13:47,109 | INFO | pipelines.data_stream | Pipeline emitted 22 records (total=68, dropped=2)
+2026-04-01 18:13:47,109 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=36 emitted=22
+2026-04-01 18:13:47,847 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=69, dropped=0)
+2026-04-01 18:13:49,710 | INFO | pipelines.data_stream | Pipeline dropped batch (seen=1 dropped=0 duplicates=1)
+2026-04-01 18:14:00,118 | INFO | pipelines.data_stream | Pipeline emitted 16 records (total=85, dropped=2)
+2026-04-01 18:14:00,118 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=36 emitted=16
+2026-04-01 18:14:01,044 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=86, dropped=0)
+2026-04-01 18:14:03,140 | INFO | pipelines.data_stream | Pipeline dropped batch (seen=1 dropped=0 duplicates=1)
+2026-04-01 18:14:11,820 | INFO | pipelines.data_stream | Pipeline emitted 19 records (total=105, dropped=2)
+2026-04-01 18:14:11,820 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=36 emitted=19
+2026-04-01 18:14:12,836 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=106, dropped=0)
+2026-04-01 18:14:15,086 | INFO | pipelines.data_stream | Pipeline dropped batch (seen=1 dropped=0 duplicates=1)
+2026-04-01 18:14:25,169 | INFO | pipelines.data_stream | Pipeline emitted 18 records (total=124, dropped=2)
+2026-04-01 18:14:25,169 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=36 emitted=18
+2026-04-01 18:14:26,688 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=125, dropped=0)
+2026-04-01 18:19:12,662 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://www.amazon.in/s?i=home-improvement&rh=n%3A95174669031%2Cp_36%3A20000-150000%2Cp_72%3A1318476031&_encoding=UTF8
+2026-04-01 18:19:12,898 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=1, dropped=0)
+2026-04-01 18:19:15,045 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=2, dropped=0)
+2026-04-01 18:19:15,940 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=3, dropped=0)
+2026-04-01 18:19:17,513 | INFO | pipelines.data_stream | Pipeline dropped batch (seen=1 dropped=0 duplicates=1)
+2026-04-01 18:19:23,508 | INFO | pipelines.data_stream | Pipeline emitted 22 records (total=25, dropped=2)
+2026-04-01 18:19:23,508 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=35 emitted=22
+2026-04-01 18:19:24,060 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=26, dropped=0)
+2026-04-01 18:19:25,769 | INFO | pipelines.data_stream | Pipeline dropped batch (seen=1 dropped=0 duplicates=1)
+2026-04-01 18:19:31,939 | INFO | pipelines.data_stream | Pipeline emitted 19 records (total=45, dropped=2)
+2026-04-01 18:19:31,940 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=35 emitted=19
+2026-04-01 18:19:32,818 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=46, dropped=0)
+2026-04-01 18:19:34,320 | INFO | pipelines.data_stream | Pipeline dropped batch (seen=1 dropped=0 duplicates=1)
+2026-04-01 18:19:41,904 | INFO | pipelines.data_stream | Pipeline emitted 19 records (total=65, dropped=2)
+2026-04-01 18:19:41,905 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=35 emitted=19
+2026-04-01 18:19:42,751 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=66, dropped=0)
+2026-04-01 18:19:44,374 | INFO | pipelines.data_stream | Pipeline dropped batch (seen=1 dropped=0 duplicates=1)
+2026-04-01 18:19:53,022 | INFO | pipelines.data_stream | Pipeline emitted 19 records (total=85, dropped=2)
+2026-04-01 18:19:53,022 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=35 emitted=19
+2026-04-01 18:19:53,944 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=86, dropped=0)
+2026-04-01 18:19:55,641 | INFO | pipelines.data_stream | Pipeline dropped batch (seen=1 dropped=0 duplicates=1)
+2026-04-01 18:20:05,292 | INFO | pipelines.data_stream | Pipeline emitted 22 records (total=108, dropped=2)
+2026-04-01 18:20:05,293 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=35 emitted=22
+2026-04-01 18:20:06,525 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=109, dropped=0)
+2026-04-01 18:20:08,495 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=110, dropped=0)
+2026-04-01 18:20:10,620 | INFO | pipelines.data_stream | Pipeline dropped batch (seen=1 dropped=0 duplicates=1)
+2026-04-01 18:20:22,737 | INFO | pipelines.data_stream | Pipeline emitted 19 records (total=129, dropped=2)
+2026-04-01 18:20:22,737 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=35 emitted=19
+2026-04-01 18:27:27,634 | WARNING | core.browser_manager | Navigation attempt 1 failed for https://www.myntra.com/shirt?rawQuery=shirt: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.myntra.com/shirt?rawQuery=shirt
+Call log:
+  - navigating to "https://www.myntra.com/shirt?rawQuery=shirt", waiting until "domcontentloaded"
+
+2026-04-01 18:27:28,243 | WARNING | core.browser_manager | Navigation attempt 2 failed for https://www.myntra.com/shirt?rawQuery=shirt: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.myntra.com/shirt?rawQuery=shirt
+Call log:
+  - navigating to "https://www.myntra.com/shirt?rawQuery=shirt", waiting until "domcontentloaded"
+
+2026-04-01 18:27:29,472 | WARNING | core.browser_manager | Navigation attempt 3 failed for https://www.myntra.com/shirt?rawQuery=shirt: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.myntra.com/shirt?rawQuery=shirt
+Call log:
+  - navigating to "https://www.myntra.com/shirt?rawQuery=shirt", waiting until "domcontentloaded"
+
+2026-04-01 18:27:29,490 | INFO | agents.universal_agent | Classified site=unknown and started extraction at chrome-error://chromewebdata/
+2026-04-01 18:27:29,506 | INFO | agents.universal_agent | DOM extraction layout=unknown candidates=0 emitted=0
+2026-04-01 18:27:30,756 | ERROR | extractors.llm_fallback | LLM fallback failed: Error code: 400 - {'error': {'message': 'mistral/mistral-7b is not a valid model ID', 'code': 400}, 'user_id': 'user_3BiHlAuqGYBN6ygEnUsRslFaeQi'}
+2026-04-01 18:31:47,928 | WARNING | core.browser_manager | Navigation attempt 1 failed for https://www.myntra.com/shirt?rawQuery=shirt: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.myntra.com/shirt?rawQuery=shirt
+Call log:
+  - navigating to "https://www.myntra.com/shirt?rawQuery=shirt", waiting until "domcontentloaded"
+
+2026-04-01 18:31:48,647 | WARNING | core.browser_manager | Navigation attempt 2 failed for https://www.myntra.com/shirt?rawQuery=shirt: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.myntra.com/shirt?rawQuery=shirt
+Call log:
+  - navigating to "https://www.myntra.com/shirt?rawQuery=shirt", waiting until "domcontentloaded"
+
+2026-04-01 18:31:49,772 | WARNING | core.browser_manager | Navigation attempt 3 failed for https://www.myntra.com/shirt?rawQuery=shirt: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.myntra.com/shirt?rawQuery=shirt
+Call log:
+  - navigating to "https://www.myntra.com/shirt?rawQuery=shirt", waiting until "domcontentloaded"
+
+2026-04-01 18:31:49,789 | INFO | agents.universal_agent | Classified site=unknown and started extraction at chrome-error://chromewebdata/
+2026-04-01 18:31:49,804 | INFO | agents.universal_agent | DOM extraction layout=unknown candidates=0 emitted=0
+2026-04-01 18:31:50,381 | ERROR | extractors.llm_fallback | LLM fallback failed: Error code: 400 - {'error': {'message': 'mistral/mistral-7b is not a valid model ID', 'code': 400}, 'user_id': 'user_3BiHlAuqGYBN6ygEnUsRslFaeQi'}
+2026-04-01 18:34:53,887 | WARNING | core.browser_manager | Navigation attempt 1 failed for https://www.myntra.com/shirt?rawQuery=shirt: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.myntra.com/shirt?rawQuery=shirt
+Call log:
+  - navigating to "https://www.myntra.com/shirt?rawQuery=shirt", waiting until "domcontentloaded"
+
+2026-04-01 18:34:54,469 | WARNING | core.browser_manager | Navigation attempt 2 failed for https://www.myntra.com/shirt?rawQuery=shirt: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.myntra.com/shirt?rawQuery=shirt
+Call log:
+  - navigating to "https://www.myntra.com/shirt?rawQuery=shirt", waiting until "domcontentloaded"
+
+2026-04-01 18:34:55,620 | WARNING | core.browser_manager | Navigation attempt 3 failed for https://www.myntra.com/shirt?rawQuery=shirt: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.myntra.com/shirt?rawQuery=shirt
+Call log:
+  - navigating to "https://www.myntra.com/shirt?rawQuery=shirt", waiting until "domcontentloaded"
+
+2026-04-01 18:34:55,637 | INFO | agents.universal_agent | Classified site=unknown and started extraction at chrome-error://chromewebdata/
+2026-04-01 18:34:55,652 | INFO | agents.universal_agent | DOM extraction layout=unknown candidates=0 emitted=0
+2026-04-01 18:58:09,354 | INFO | UNIVERSAL_SCRAPER | Starting FastAPI server on 0.0.0.0:8000
+2026-04-01 18:58:09,354 | INFO | UNIVERSAL_SCRAPER | Dashboard available at http://localhost:8000
+2026-04-01 18:58:35,885 | WARNING | core.browser_manager | Navigation attempt 1 failed for https://www.myntra.com/shirt?rawQuery=shirt: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.myntra.com/shirt?rawQuery=shirt
+Call log:
+  - navigating to "https://www.myntra.com/shirt?rawQuery=shirt", waiting until "domcontentloaded"
+
+2026-04-01 18:58:36,087 | WARNING | core.browser_manager | Navigation secondary strategy failed for https://www.myntra.com/shirt?rawQuery=shirt: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.myntra.com/shirt?rawQuery=shirt
+Call log:
+  - navigating to "https://www.myntra.com/shirt?rawQuery=shirt", waiting until "load"
+
+2026-04-01 18:59:07,045 | WARNING | core.browser_manager | Navigation attempt 2 failed for https://www.myntra.com/shirt?rawQuery=shirt: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.myntra.com/shirt?rawQuery=shirt", waiting until "domcontentloaded"
+
+2026-04-01 18:59:43,108 | INFO | agents.universal_agent | http2_fallback_used=False navigation_attempts=1 final_url=https://www.amazon.in/s?k=power+bank blocked_detected=False
+2026-04-01 18:59:54,739 | INFO | agents.universal_agent | http2_fallback_used=False navigation_attempts=1 final_url=https://www.amazon.in/s?k=power+bank&rh=p_36%3A100000-500000 blocked_detected=False
+2026-04-01 18:59:54,742 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://www.amazon.in/s?k=power+bank&rh=p_36%3A100000-500000
+2026-04-01 18:59:54,763 | INFO | agents.universal_agent | dynamic_probe domain=www.amazon.in dynamic_mode=True has_next_data=False has_initial_state=False large_empty_grid=True
+2026-04-01 19:00:04,569 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=1, dropped=0)
+2026-04-01 19:00:04,570 | INFO | agents.universal_agent | dynamic_mode=True api_calls_captured=8 dom_nodes_after_render=5207 scroll_attempts=4 extraction_source_used=layer1
+2026-04-01 19:00:14,427 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=2, dropped=0)
+2026-04-01 19:00:14,427 | INFO | agents.universal_agent | dynamic_mode=True api_calls_captured=10 dom_nodes_after_render=5404 scroll_attempts=4 extraction_source_used=layer1
+2026-04-01 19:00:24,119 | INFO | pipelines.data_stream | Pipeline dropped batch (seen=1 dropped=0 duplicates=1)
+2026-04-01 19:00:30,846 | INFO | pipelines.data_stream | Pipeline emitted 22 records (total=24, dropped=1)
+2026-04-01 19:00:30,846 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=39 emitted=22
+2026-04-01 19:00:30,846 | INFO | agents.universal_agent | dynamic_mode=True api_calls_captured=12 dom_nodes_after_render=5413 scroll_attempts=1 extraction_source_used=dynamic_dom
+2026-04-01 19:01:15,704 | WARNING | core.browser_manager | Navigation secondary strategy failed for https://www.myntra.com/shirt?rawQuery=shirt: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.myntra.com/shirt?rawQuery=shirt", waiting until "load"
+
+2026-04-01 19:03:29,148 | INFO | agents.universal_agent | http2_fallback_used=False navigation_attempts=1 final_url=https://www.amazon.in/s?k=power+bank blocked_detected=False
+2026-04-01 19:03:40,791 | INFO | agents.universal_agent | http2_fallback_used=False navigation_attempts=1 final_url=https://www.amazon.in/s?k=power+bank&rh=p_36%3A-500000 blocked_detected=False
+2026-04-01 19:03:40,791 | INFO | agents.universal_agent | Classified site=ecommerce and started extraction at https://www.amazon.in/s?k=power+bank&rh=p_36%3A-500000
+2026-04-01 19:03:40,806 | INFO | agents.universal_agent | dynamic_probe domain=www.amazon.in dynamic_mode=True has_next_data=False has_initial_state=False large_empty_grid=True
+2026-04-01 19:03:50,500 | INFO | pipelines.data_stream | Pipeline emitted 1 records (total=1, dropped=0)
+2026-04-01 19:03:50,501 | INFO | agents.universal_agent | dynamic_mode=True api_calls_captured=6 dom_nodes_after_render=5483 scroll_attempts=4 extraction_source_used=layer1
+2026-04-01 19:03:59,943 | INFO | pipelines.data_stream | Pipeline dropped batch (seen=1 dropped=0 duplicates=1)
+2026-04-01 19:04:02,671 | INFO | pipelines.data_stream | Pipeline emitted 19 records (total=20, dropped=2)
+2026-04-01 19:04:02,672 | INFO | agents.universal_agent | DOM extraction layout=cards candidates=39 emitted=19
+2026-04-01 19:04:02,672 | INFO | agents.universal_agent | dynamic_mode=True api_calls_captured=8 dom_nodes_after_render=5492 scroll_attempts=1 extraction_source_used=dynamic_dom
+2026-04-01 19:04:33,710 | WARNING | core.browser_manager | Navigation attempt 3 failed for https://www.myntra.com/shirt?rawQuery=shirt: Page.goto: Page crashed
+Call log:
+  - navigating to "https://www.myntra.com/shirt?rawQuery=shirt", waiting until "domcontentloaded"
+
+2026-04-01 19:04:33,714 | WARNING | core.browser_manager | Navigation secondary strategy failed for https://www.myntra.com/shirt?rawQuery=shirt: Page.set_extra_http_headers: Target crashed 
+2026-04-01 19:04:33,714 | INFO | agents.universal_agent | http2_fallback_used=True navigation_attempts=3 final_url=chrome-error://chromewebdata/ blocked_detected=True

@@ -1,0 +1,2 @@
+name,price,currency,rating,reviews_count,availability,url,image_url,source,scraped_at,confidence
+"var aPageStart = (new Date()).getTime(); var ue_t0=ue_t0||+new Date(); window.ue_ihb = (window.ue_ihb || window.ueinit || 0) + 1; if (window.ue_ihb === 1) { var ue_csm = window, ue",500.0,INR,4.5,36,In Stock,https://www.amazon.in/s?k=iphone,,meta,2026-04-01T09:28:53.437762Z,0.565

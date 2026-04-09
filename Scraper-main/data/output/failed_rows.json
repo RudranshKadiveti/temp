@@ -1,0 +1,1539 @@
+[
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "availability": "out of stock",
+      "brand": NaN,
+      "currency": "₹",
+      "discount": 118999.0,
+      "image_url": NaN,
+      "name": "₹1,18,999 ₹1,18,999 M.R.P: ₹1,29,999 M.R.P: ₹1,29,999 ₹1,29,999",
+      "price": 118999.0,
+      "rating": NaN,
+      "reviews": NaN,
+      "specs": NaN,
+      "url": "https://www.amazon.in/Samsung-Smartphone-Titanium-Snapdragon-ProVisual/dp/B0DSKMV3ZC/ref=sr_1_14?dib=eyJ2IjoiMSJ9.oOpxYj59wzxFJBcivbt77j9VVkF6B9wdc44VFuiXt-6dMXbXtSHE1kkuocCAtf6Yig5uQcKNbVKIccNpzj0YuaXabMoRPeaAzm_jceWO6NTaSqPX8Sp_7o0Lbzw778PC9f4onQJE4smqAQ74s9m-2xpQZIdbXraV-6hvvVdPsUtMXTKdGYYgiPq3A_rWypMl3IO_q4hG02A2pdXys8p6s2WVaYz8RQHN6EPGyXMrGEk.P3-w9qoj9tDQWOIweTFKl2a3SKsmX-j4bd3QkuvH-ds&dib_tag=se&keywords=iphone&qid=1775034851&sr=8-14"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "availability": "out of stock",
+      "brand": NaN,
+      "currency": "₹",
+      "discount": 53999.0,
+      "image_url": NaN,
+      "name": "Limited time deal",
+      "price": 53999.0,
+      "rating": NaN,
+      "reviews": NaN,
+      "specs": NaN,
+      "url": "https://www.amazon.in/deals"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "availability": "in stock",
+      "brand": NaN,
+      "currency": "₹",
+      "discount": 154900.0,
+      "image_url": "https://m.media-amazon.com/images/I/71JGCn1z1TL._AC_UY218_.jpg",
+      "name": "Sponsored iPhone 17 Pro 512 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Cosmic Orange 4.5 4.5 out of 5 stars (",
+      "price": 154900.0,
+      "rating": 4.5,
+      "reviews": 4.5,
+      "specs": NaN,
+      "url": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MToyNzExMjM2NTEzMDExNzAyOjE3NzUwMzQ4NTE6c3BfYXRmOjMwMDcxNDEyOTAyMzkzMjo6MDo6&url=%2FiPhone-Pro-512-Promotion-Breakthrough%2Fdp%2FB0FQFQF6D1%2Fref%3Dsr_1_1_sspa%3Fdib%3DeyJ2IjoiMSJ9.oOpxYj59wzxFJBcivbt77j9VVkF6B9wdc44VFuiXt-6dMXbXtSHE1kkuocCAtf6Yig5uQcKNbVKIccNpzj0YuaXabMoRPeaAzm_jceWO6NTaSqPX8Sp_7o0Lbzw778PC9f4onQJE4smqAQ74s9m-2xpQZIdbXraV-6hvvVdPsUtMXTKdGYYgiPq3A_rWypMl3IO_q4hG02A2pdXys8p6s2WVaYz8RQHN6EPGyXMrGEk.P3-w9qoj9tDQWOIweTFKl2a3SKsmX-j4bd3QkuvH-ds%26dib_tag%3Dse%26keywords%3Diphone%26qid%3D1775034851%26sr%3D8-1-spons%26aref%3D8n6sAEilCq%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=8n6sAEilCq&sp_cr=ZAZ"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "availability": "out of stock",
+      "brand": NaN,
+      "currency": "₹",
+      "discount": 189900.0,
+      "image_url": "https://m.media-amazon.com/images/I/71MXmswILHL._AC_UY218_.jpg",
+      "name": "Sponsored iPhone 17 Pro Max 1 TB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, Pro Fusion Camera System, Center Stage Front Camera; Cosmic Orange 4.4 4.4 out of 5 stars (269",
+      "price": 189900.0,
+      "rating": 4.4,
+      "reviews": 4.4,
+      "specs": NaN,
+      "url": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MToyNzExMjM2NTEzMDExNzAyOjE3NzUwMzQ4NTE6c3BfYXRmOjMwMDcxNDEyOTAyMzgzMjo6MDo6&url=%2FiPhone-17-Pro-Max-Promotion%2Fdp%2FB0FQFPHB1W%2Fref%3Dsr_1_2_sspa%3Fdib%3DeyJ2IjoiMSJ9.oOpxYj59wzxFJBcivbt77j9VVkF6B9wdc44VFuiXt-6dMXbXtSHE1kkuocCAtf6Yig5uQcKNbVKIccNpzj0YuaXabMoRPeaAzm_jceWO6NTaSqPX8Sp_7o0Lbzw778PC9f4onQJE4smqAQ74s9m-2xpQZIdbXraV-6hvvVdPsUtMXTKdGYYgiPq3A_rWypMl3IO_q4hG02A2pdXys8p6s2WVaYz8RQHN6EPGyXMrGEk.P3-w9qoj9tDQWOIweTFKl2a3SKsmX-j4bd3QkuvH-ds%26dib_tag%3Dse%26keywords%3Diphone%26qid%3D1775034851%26sr%3D8-2-spons%26aref%3DRkpRI3A9Hr%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=RkpRI3A9Hr&sp_cr=ZAZ"
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "availability": "in stock",
+      "brand": NaN,
+      "currency": "₹",
+      "discount": 174900.0,
+      "image_url": "https://m.media-amazon.com/images/I/71JGCn1z1TL._AC_UY218_.jpg",
+      "name": "iPhone 17 Pro 1 TB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro Fusion Camera System with Center Stage Front Camera; Cosmic Orange 4.5 4.5 out of 5 stars (350) 50+ bou",
+      "price": 174900.0,
+      "rating": 4.5,
+      "reviews": 4.5,
+      "specs": NaN,
+      "url": "https://www.amazon.in/iPhone-17-Pro-Promotion-Breakthrough/dp/B0FQG1VB5Y/ref=sr_1_3?dib=eyJ2IjoiMSJ9.oOpxYj59wzxFJBcivbt77j9VVkF6B9wdc44VFuiXt-6dMXbXtSHE1kkuocCAtf6Yig5uQcKNbVKIccNpzj0YuaXabMoRPeaAzm_jceWO6NTaSqPX8Sp_7o0Lbzw778PC9f4onQJE4smqAQ74s9m-2xpQZIdbXraV-6hvvVdPsUtMXTKdGYYgiPq3A_rWypMl3IO_q4hG02A2pdXys8p6s2WVaYz8RQHN6EPGyXMrGEk.P3-w9qoj9tDQWOIweTFKl2a3SKsmX-j4bd3QkuvH-ds&dib_tag=se&keywords=iphone&qid=1775034851&sr=8-3"
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "availability": "out of stock",
+      "brand": NaN,
+      "currency": "₹",
+      "discount": 149900.0,
+      "image_url": "https://m.media-amazon.com/images/I/71R8VsJ07nL._AC_UY218_.jpg",
+      "name": "iPhone 17 Pro Max 256 GB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, Pro Fusion Camera System, Center Stage Front Camera; Deep Blue 4.4 4.4 out of 5 stars (269) 200+ bough",
+      "price": 149900.0,
+      "rating": 4.4,
+      "reviews": 4.4,
+      "specs": NaN,
+      "url": "https://www.amazon.in/iPhone-Pro-Max-256-Promotion/dp/B0FQFV2XKS/ref=sr_1_4?dib=eyJ2IjoiMSJ9.oOpxYj59wzxFJBcivbt77j9VVkF6B9wdc44VFuiXt-6dMXbXtSHE1kkuocCAtf6Yig5uQcKNbVKIccNpzj0YuaXabMoRPeaAzm_jceWO6NTaSqPX8Sp_7o0Lbzw778PC9f4onQJE4smqAQ74s9m-2xpQZIdbXraV-6hvvVdPsUtMXTKdGYYgiPq3A_rWypMl3IO_q4hG02A2pdXys8p6s2WVaYz8RQHN6EPGyXMrGEk.P3-w9qoj9tDQWOIweTFKl2a3SKsmX-j4bd3QkuvH-ds&dib_tag=se&keywords=iphone&qid=1775034851&sr=8-4"
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "availability": "out of stock",
+      "brand": NaN,
+      "currency": "₹",
+      "discount": 119900.0,
+      "image_url": "https://m.media-amazon.com/images/I/614MsdnfBxL._AC_UY218_.jpg",
+      "name": "iPhone Air 256 GB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, Powerful A19 Pro Chip, Center Stage Front Camera, All-Day Battery Life; Light Gold 4.0 4.0 out of 5 stars (35) 200+ bought in p",
+      "price": 119900.0,
+      "rating": 4.0,
+      "reviews": 4.0,
+      "specs": NaN,
+      "url": "https://www.amazon.in/iPhone-Air-256-GB-Promotion/dp/B0FQFTV1NP/ref=sr_1_5?dib=eyJ2IjoiMSJ9.oOpxYj59wzxFJBcivbt77j9VVkF6B9wdc44VFuiXt-6dMXbXtSHE1kkuocCAtf6Yig5uQcKNbVKIccNpzj0YuaXabMoRPeaAzm_jceWO6NTaSqPX8Sp_7o0Lbzw778PC9f4onQJE4smqAQ74s9m-2xpQZIdbXraV-6hvvVdPsUtMXTKdGYYgiPq3A_rWypMl3IO_q4hG02A2pdXys8p6s2WVaYz8RQHN6EPGyXMrGEk.P3-w9qoj9tDQWOIweTFKl2a3SKsmX-j4bd3QkuvH-ds&dib_tag=se&keywords=iphone&qid=1775034851&sr=8-5"
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "availability": "out of stock",
+      "brand": NaN,
+      "currency": "₹",
+      "discount": 94990.0,
+      "image_url": "https://m.media-amazon.com/images/I/61Ce-6B6x+L._AC_UY218_.jpg",
+      "name": "iPhone Air 256 GB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, Powerful A19 Pro Chip, Center Stage Front Camera, All-Day Battery Life; Sky Blue 4.5 4.5 out of 5 stars (51) 300+ bought in pas",
+      "price": 94990.0,
+      "rating": 4.5,
+      "reviews": 4.5,
+      "specs": NaN,
+      "url": "https://www.amazon.in/iPhone-Air-256-GB-Promotion/dp/B0FQFJGP8S/ref=sr_1_6?dib=eyJ2IjoiMSJ9.oOpxYj59wzxFJBcivbt77j9VVkF6B9wdc44VFuiXt-6dMXbXtSHE1kkuocCAtf6Yig5uQcKNbVKIccNpzj0YuaXabMoRPeaAzm_jceWO6NTaSqPX8Sp_7o0Lbzw778PC9f4onQJE4smqAQ74s9m-2xpQZIdbXraV-6hvvVdPsUtMXTKdGYYgiPq3A_rWypMl3IO_q4hG02A2pdXys8p6s2WVaYz8RQHN6EPGyXMrGEk.P3-w9qoj9tDQWOIweTFKl2a3SKsmX-j4bd3QkuvH-ds&dib_tag=se&keywords=iphone&qid=1775034851&sr=8-6"
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "availability": "out of stock",
+      "brand": NaN,
+      "currency": "₹",
+      "discount": 89900.0,
+      "image_url": "https://m.media-amazon.com/images/I/61FMZ9rSZUL._AC_UY218_.jpg",
+      "name": "iPhone 16e 512 GB: Built for Apple Intelligence, A18 Chip, Supersized Battery Life, 48MP Fusion. Camera, 15.40 cm (6.1″) Super Retina XDR Display; Black 4.5 4.5 out of 5 stars (1.1K) Price, product page ₹89,900 ₹89,900 S",
+      "price": 89900.0,
+      "rating": 4.5,
+      "reviews": 4.5,
+      "specs": NaN,
+      "url": "https://www.amazon.in/iPhone-16e-512-Intelligence-Supersized/dp/B0DXQJ1M7H/ref=sr_1_7?dib=eyJ2IjoiMSJ9.oOpxYj59wzxFJBcivbt77j9VVkF6B9wdc44VFuiXt-6dMXbXtSHE1kkuocCAtf6Yig5uQcKNbVKIccNpzj0YuaXabMoRPeaAzm_jceWO6NTaSqPX8Sp_7o0Lbzw778PC9f4onQJE4smqAQ74s9m-2xpQZIdbXraV-6hvvVdPsUtMXTKdGYYgiPq3A_rWypMl3IO_q4hG02A2pdXys8p6s2WVaYz8RQHN6EPGyXMrGEk.P3-w9qoj9tDQWOIweTFKl2a3SKsmX-j4bd3QkuvH-ds&dib_tag=se&keywords=iphone&qid=1775034851&sr=8-7"
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "availability": "out of stock",
+      "brand": NaN,
+      "currency": "₹",
+      "discount": 94990.0,
+      "image_url": "https://m.media-amazon.com/images/I/61+0aSXsyGL._AC_UY218_.jpg",
+      "name": "iPhone Air 256 GB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, Powerful A19 Pro Chip, Center Stage Front Camera, All-Day Battery Life; Cloud White 4.5 4.5 out of 5 stars (11) 100+ bought in ",
+      "price": 94990.0,
+      "rating": 4.5,
+      "reviews": 4.5,
+      "specs": NaN,
+      "url": "https://www.amazon.in/iPhone-Air-256-GB-Promotion/dp/B0FQFLWN5Z/ref=sr_1_8?dib=eyJ2IjoiMSJ9.oOpxYj59wzxFJBcivbt77j9VVkF6B9wdc44VFuiXt-6dMXbXtSHE1kkuocCAtf6Yig5uQcKNbVKIccNpzj0YuaXabMoRPeaAzm_jceWO6NTaSqPX8Sp_7o0Lbzw778PC9f4onQJE4smqAQ74s9m-2xpQZIdbXraV-6hvvVdPsUtMXTKdGYYgiPq3A_rWypMl3IO_q4hG02A2pdXys8p6s2WVaYz8RQHN6EPGyXMrGEk.P3-w9qoj9tDQWOIweTFKl2a3SKsmX-j4bd3QkuvH-ds&dib_tag=se&keywords=iphone&qid=1775034851&sr=8-8"
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "availability": "out of stock",
+      "brand": NaN,
+      "currency": "₹",
+      "discount": 101190.0,
+      "image_url": "https://m.media-amazon.com/images/I/61knPJtYRpL._AC_UY218_.jpg",
+      "name": "iPhone Air 256 GB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, Powerful A19 Pro Chip, Center Stage Front Camera, All-Day Battery Life; Space Black 4.4 4.4 out of 5 stars (36) 200+ bought in ",
+      "price": 101190.0,
+      "rating": 4.4,
+      "reviews": 4.4,
+      "specs": NaN,
+      "url": "https://www.amazon.in/iPhone-Air-256-GB-Promotion/dp/B0FQFBDQJ1/ref=sr_1_9?dib=eyJ2IjoiMSJ9.oOpxYj59wzxFJBcivbt77j9VVkF6B9wdc44VFuiXt-6dMXbXtSHE1kkuocCAtf6Yig5uQcKNbVKIccNpzj0YuaXabMoRPeaAzm_jceWO6NTaSqPX8Sp_7o0Lbzw778PC9f4onQJE4smqAQ74s9m-2xpQZIdbXraV-6hvvVdPsUtMXTKdGYYgiPq3A_rWypMl3IO_q4hG02A2pdXys8p6s2WVaYz8RQHN6EPGyXMrGEk.P3-w9qoj9tDQWOIweTFKl2a3SKsmX-j4bd3QkuvH-ds&dib_tag=se&keywords=iphone&qid=1775034851&sr=8-9"
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "availability": "out of stock",
+      "brand": NaN,
+      "currency": "₹",
+      "discount": 113990.0,
+      "image_url": "https://m.media-amazon.com/images/I/61Ce-6B6x+L._AC_UY218_.jpg",
+      "name": "iPhone Air 512 GB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, Powerful A19 Pro Chip, Center Stage Front Camera, All-Day Battery Life; Sky Blue 3.7 3.7 out of 5 stars (6) 50+ bought in past ",
+      "price": 113990.0,
+      "rating": 3.7,
+      "reviews": 3.7,
+      "specs": NaN,
+      "url": "https://www.amazon.in/iPhone-Air-512-GB-Promotion/dp/B0FQFH6CV1/ref=sr_1_10?dib=eyJ2IjoiMSJ9.oOpxYj59wzxFJBcivbt77j9VVkF6B9wdc44VFuiXt-6dMXbXtSHE1kkuocCAtf6Yig5uQcKNbVKIccNpzj0YuaXabMoRPeaAzm_jceWO6NTaSqPX8Sp_7o0Lbzw778PC9f4onQJE4smqAQ74s9m-2xpQZIdbXraV-6hvvVdPsUtMXTKdGYYgiPq3A_rWypMl3IO_q4hG02A2pdXys8p6s2WVaYz8RQHN6EPGyXMrGEk.P3-w9qoj9tDQWOIweTFKl2a3SKsmX-j4bd3QkuvH-ds&dib_tag=se&keywords=iphone&qid=1775034851&sr=8-10"
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "availability": "out of stock",
+      "brand": NaN,
+      "currency": "₹",
+      "discount": 113990.0,
+      "image_url": "https://m.media-amazon.com/images/I/61+0aSXsyGL._AC_UY218_.jpg",
+      "name": "iPhone Air 512 GB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, Powerful A19 Pro Chip, Center Stage Front Camera, All-Day Battery Life; Cloud White 5.0 5.0 out of 5 stars (2) Price, product p",
+      "price": 113990.0,
+      "rating": 5.0,
+      "reviews": 5.0,
+      "specs": NaN,
+      "url": "https://www.amazon.in/iPhone-Air-512-GB-Promotion/dp/B0FQFJG6WN/ref=sr_1_11?dib=eyJ2IjoiMSJ9.oOpxYj59wzxFJBcivbt77j9VVkF6B9wdc44VFuiXt-6dMXbXtSHE1kkuocCAtf6Yig5uQcKNbVKIccNpzj0YuaXabMoRPeaAzm_jceWO6NTaSqPX8Sp_7o0Lbzw778PC9f4onQJE4smqAQ74s9m-2xpQZIdbXraV-6hvvVdPsUtMXTKdGYYgiPq3A_rWypMl3IO_q4hG02A2pdXys8p6s2WVaYz8RQHN6EPGyXMrGEk.P3-w9qoj9tDQWOIweTFKl2a3SKsmX-j4bd3QkuvH-ds&dib_tag=se&keywords=iphone&qid=1775034851&sr=8-11"
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "availability": "out of stock",
+      "brand": NaN,
+      "currency": "₹",
+      "discount": 113990.0,
+      "image_url": "https://m.media-amazon.com/images/I/61knPJtYRpL._AC_UY218_.jpg",
+      "name": "iPhone Air 512 GB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, Powerful A19 Pro Chip, Center Stage Front Camera, All-Day Battery Life; Space Black 3.2 3.2 out of 5 stars (3) 50+ bought in pa",
+      "price": 113990.0,
+      "rating": 3.2,
+      "reviews": 3.2,
+      "specs": NaN,
+      "url": "https://www.amazon.in/iPhone-Air-512-GB-Promotion/dp/B0FQG8LLXS/ref=sr_1_12?dib=eyJ2IjoiMSJ9.oOpxYj59wzxFJBcivbt77j9VVkF6B9wdc44VFuiXt-6dMXbXtSHE1kkuocCAtf6Yig5uQcKNbVKIccNpzj0YuaXabMoRPeaAzm_jceWO6NTaSqPX8Sp_7o0Lbzw778PC9f4onQJE4smqAQ74s9m-2xpQZIdbXraV-6hvvVdPsUtMXTKdGYYgiPq3A_rWypMl3IO_q4hG02A2pdXys8p6s2WVaYz8RQHN6EPGyXMrGEk.P3-w9qoj9tDQWOIweTFKl2a3SKsmX-j4bd3QkuvH-ds&dib_tag=se&keywords=iphone&qid=1775034851&sr=8-12"
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "availability": "out of stock",
+      "brand": NaN,
+      "currency": "₹",
+      "discount": 132490.0,
+      "image_url": "https://m.media-amazon.com/images/I/61knPJtYRpL._AC_UY218_.jpg",
+      "name": "iPhone Air 1 TB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, Powerful A19 Pro Chip, Center Stage Front Camera, All-Day Battery Life; Space Black 5.0 5.0 out of 5 stars (3) Price, product pag",
+      "price": 132490.0,
+      "rating": 5.0,
+      "reviews": 5.0,
+      "specs": NaN,
+      "url": "https://www.amazon.in/iPhone-Air-TB-Thinnest-Promotion/dp/B0FQG8WM6R/ref=sr_1_13?dib=eyJ2IjoiMSJ9.oOpxYj59wzxFJBcivbt77j9VVkF6B9wdc44VFuiXt-6dMXbXtSHE1kkuocCAtf6Yig5uQcKNbVKIccNpzj0YuaXabMoRPeaAzm_jceWO6NTaSqPX8Sp_7o0Lbzw778PC9f4onQJE4smqAQ74s9m-2xpQZIdbXraV-6hvvVdPsUtMXTKdGYYgiPq3A_rWypMl3IO_q4hG02A2pdXys8p6s2WVaYz8RQHN6EPGyXMrGEk.P3-w9qoj9tDQWOIweTFKl2a3SKsmX-j4bd3QkuvH-ds&dib_tag=se&keywords=iphone&qid=1775034851&sr=8-13"
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "availability": "out of stock",
+      "brand": NaN,
+      "currency": "₹",
+      "discount": 118999.0,
+      "image_url": "https://m.media-amazon.com/images/I/7109g7msDqL._AC_UY218_.jpg",
+      "name": "Samsung Galaxy S25 Ultra 5G AI Smartphone (Titanium Gray, 12GB RAM, 256GB Storage), 200MP Camera, S Pen Included, Long Battery Life 4.4 4.4 out of 5 stars (909) Price, product page ₹1,18,999 ₹1,18,999 M.R.P: ₹1,29,999 M.",
+      "price": 118999.0,
+      "rating": 4.4,
+      "reviews": 4.4,
+      "specs": NaN,
+      "url": "https://www.amazon.in/Samsung-Smartphone-Titanium-Snapdragon-ProVisual/dp/B0DSKMV3ZC/ref=sr_1_14?dib=eyJ2IjoiMSJ9.oOpxYj59wzxFJBcivbt77j9VVkF6B9wdc44VFuiXt-6dMXbXtSHE1kkuocCAtf6Yig5uQcKNbVKIccNpzj0YuaXabMoRPeaAzm_jceWO6NTaSqPX8Sp_7o0Lbzw778PC9f4onQJE4smqAQ74s9m-2xpQZIdbXraV-6hvvVdPsUtMXTKdGYYgiPq3A_rWypMl3IO_q4hG02A2pdXys8p6s2WVaYz8RQHN6EPGyXMrGEk.P3-w9qoj9tDQWOIweTFKl2a3SKsmX-j4bd3QkuvH-ds&dib_tag=se&keywords=iphone&qid=1775034851&sr=8-14"
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "availability": "out of stock",
+      "brand": NaN,
+      "currency": "₹",
+      "discount": 132490.0,
+      "image_url": "https://m.media-amazon.com/images/I/614MsdnfBxL._AC_UY218_.jpg",
+      "name": "iPhone Air 1 TB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, Powerful A19 Pro Chip, Center Stage Front Camera, All-Day Battery Life; Light Gold 2.9 2.9 out of 5 stars (4) Price, product page",
+      "price": 132490.0,
+      "rating": 2.9,
+      "reviews": 2.9,
+      "specs": NaN,
+      "url": "https://www.amazon.in/iPhone-Air-TB-Thinnest-Promotion/dp/B0FQG1K1FM/ref=sr_1_15?dib=eyJ2IjoiMSJ9.oOpxYj59wzxFJBcivbt77j9VVkF6B9wdc44VFuiXt-6dMXbXtSHE1kkuocCAtf6Yig5uQcKNbVKIccNpzj0YuaXabMoRPeaAzm_jceWO6NTaSqPX8Sp_7o0Lbzw778PC9f4onQJE4smqAQ74s9m-2xpQZIdbXraV-6hvvVdPsUtMXTKdGYYgiPq3A_rWypMl3IO_q4hG02A2pdXys8p6s2WVaYz8RQHN6EPGyXMrGEk.P3-w9qoj9tDQWOIweTFKl2a3SKsmX-j4bd3QkuvH-ds&dib_tag=se&keywords=iphone&qid=1775034851&sr=8-15"
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "availability": "out of stock",
+      "brand": NaN,
+      "currency": "₹",
+      "discount": 139999.0,
+      "image_url": "https://m.media-amazon.com/images/I/71CEv09j+HL._AC_UY218_.jpg",
+      "name": "Samsung Galaxy S26 Ultra 5G (Cobalt Violet, 12GB RAM, 256GB Storage) with Built-in Privacy Display, AI Phone, Photo Assist, Creative Studio, 200MP Camera, 5000mAh Battery and Snapdragon 8 Elite Gen 5 300+ bought in past ",
+      "price": 139999.0,
+      "rating": NaN,
+      "reviews": NaN,
+      "specs": NaN,
+      "url": "https://www.amazon.in/Samsung-Storage-Privacy-Creative-Snapdragon/dp/B0GL8G49LV/ref=sr_1_16?dib=eyJ2IjoiMSJ9.oOpxYj59wzxFJBcivbt77j9VVkF6B9wdc44VFuiXt-6dMXbXtSHE1kkuocCAtf6Yig5uQcKNbVKIccNpzj0YuaXabMoRPeaAzm_jceWO6NTaSqPX8Sp_7o0Lbzw778PC9f4onQJE4smqAQ74s9m-2xpQZIdbXraV-6hvvVdPsUtMXTKdGYYgiPq3A_rWypMl3IO_q4hG02A2pdXys8p6s2WVaYz8RQHN6EPGyXMrGEk.P3-w9qoj9tDQWOIweTFKl2a3SKsmX-j4bd3QkuvH-ds&dib_tag=se&keywords=iphone&qid=1775034851&sr=8-16"
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "availability": "out of stock",
+      "brand": NaN,
+      "currency": "₹",
+      "discount": 65999.0,
+      "image_url": "https://m.media-amazon.com/images/I/41-Bc14cmeL._AC_UY218_.jpg",
+      "name": "Samsung Galaxy S25 FE 5G Smartphone with Galaxy AI (White, 8GB RAM, 512GB Storage), 12MP Front Camera, ProVisual Engine, Long Battery Life 4.0 4.0 out of 5 stars (51) 50+ bought in past month Price, product page ₹65,999 ",
+      "price": 65999.0,
+      "rating": 4.0,
+      "reviews": 4.0,
+      "specs": NaN,
+      "url": "https://www.amazon.in/Samsung-Smartphone-Storage-ProVisual-Battery/dp/B0FNMN6D5K/ref=sr_1_17?dib=eyJ2IjoiMSJ9.oOpxYj59wzxFJBcivbt77j9VVkF6B9wdc44VFuiXt-6dMXbXtSHE1kkuocCAtf6Yig5uQcKNbVKIccNpzj0YuaXabMoRPeaAzm_jceWO6NTaSqPX8Sp_7o0Lbzw778PC9f4onQJE4smqAQ74s9m-2xpQZIdbXraV-6hvvVdPsUtMXTKdGYYgiPq3A_rWypMl3IO_q4hG02A2pdXys8p6s2WVaYz8RQHN6EPGyXMrGEk.P3-w9qoj9tDQWOIweTFKl2a3SKsmX-j4bd3QkuvH-ds&dib_tag=se&keywords=iphone&qid=1775034851&sr=8-17"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "availability": "out of stock",
+      "brand": NaN,
+      "currency": "₹",
+      "discount": 4.4,
+      "image_url": "https://m.media-amazon.com/images/I/71LXxFpsdHL._AC_UY218_.jpg",
+      "name": "OPPO Reno15 5G (Glacier White, 12GB RAM, 512GB Storage) with No Cost EMI/Additional Exchange Offers 4.4 4.4 out of 5 stars (133) Limited time deal Price, product page ₹53,999 ₹53,999 M.R.P: ₹59,999 M.R.P: ₹59,999 ₹59,999",
+      "price": 4.4,
+      "rating": 4.4,
+      "reviews": 4.4,
+      "specs": NaN,
+      "url": "https://www.amazon.in/Reno15-Glacier-Storage-Additional-Exchange/dp/B0G8YNRBF2/ref=sr_1_18?dib=eyJ2IjoiMSJ9.oOpxYj59wzxFJBcivbt77j9VVkF6B9wdc44VFuiXt-6dMXbXtSHE1kkuocCAtf6Yig5uQcKNbVKIccNpzj0YuaXabMoRPeaAzm_jceWO6NTaSqPX8Sp_7o0Lbzw778PC9f4onQJE4smqAQ74s9m-2xpQZIdbXraV-6hvvVdPsUtMXTKdGYYgiPq3A_rWypMl3IO_q4hG02A2pdXys8p6s2WVaYz8RQHN6EPGyXMrGEk.P3-w9qoj9tDQWOIweTFKl2a3SKsmX-j4bd3QkuvH-ds&dib_tag=se&keywords=iphone&qid=1775034851&sr=8-18"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "availability": "out of stock",
+      "brand": NaN,
+      "currency": NaN,
+      "discount": NaN,
+      "image_url": NaN,
+      "name": "Related searches",
+      "price": NaN,
+      "rating": NaN,
+      "reviews": NaN,
+      "specs": NaN,
+      "url": "https://www.amazon.in/s?k=iphone+11&ref=rsl_sug_0_0&pd_rd_w=YKTWW&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=GZ5C978S01EGW9AJXK4G&pd_rd_wg=4ZjBb&pd_rd_r=fc168739-7572-46ed-b999-fe947921d4b6&qid=1775034851"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "availability": "out of stock",
+      "brand": NaN,
+      "currency": NaN,
+      "discount": NaN,
+      "image_url": NaN,
+      "name": "Need help?",
+      "price": NaN,
+      "rating": NaN,
+      "reviews": NaN,
+      "specs": NaN,
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=201889520"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "availability": "out of stock",
+      "brand": NaN,
+      "currency": NaN,
+      "discount": NaN,
+      "image_url": NaN,
+      "name": "About Amazon",
+      "price": NaN,
+      "rating": NaN,
+      "reviews": NaN,
+      "specs": NaN,
+      "url": "https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer"
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "availability": "out of stock",
+      "brand": NaN,
+      "currency": NaN,
+      "discount": NaN,
+      "image_url": NaN,
+      "name": "AbeBooks Books, art & collectibles",
+      "price": NaN,
+      "rating": NaN,
+      "reviews": NaN,
+      "specs": NaN,
+      "url": "https://www.abebooks.com/"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "availability": "out of stock",
+      "brand": NaN,
+      "currency": NaN,
+      "discount": NaN,
+      "image_url": NaN,
+      "name": "Conditions of Use & Sale",
+      "price": NaN,
+      "rating": NaN,
+      "reviews": NaN,
+      "specs": NaN,
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou"
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "availability": "out of stock",
+      "brand": NaN,
+      "currency": NaN,
+      "discount": NaN,
+      "image_url": NaN,
+      "name": "Samsung",
+      "price": NaN,
+      "rating": NaN,
+      "reviews": NaN,
+      "specs": NaN,
+      "url": "https://www.amazon.in/Samsung-Smartphone-Titanium-Snapdragon-ProVisual/dp/B0DSKMV3ZC/ref=sr_1_14?dib=eyJ2IjoiMSJ9.oOpxYj59wzxFJBcivbt77j9VVkF6B9wdc44VFuiXt-6dMXbXtSHE1kkuocCAtf6Yig5uQcKNbVKIccNpzj0YuaXabMoRPeaAzm_jceWO6NTaSqPX8Sp_7o0Lbzw778PC9f4onQJE4smqAQ74s9m-2xpQZIdbXraV-6hvvVdPsUtMXTKdGYYgiPq3A_rWypMl3IO_q4hG02A2pdXys8p6s2WVaYz8RQHN6EPGyXMrGEk.P3-w9qoj9tDQWOIweTFKl2a3SKsmX-j4bd3QkuvH-ds&dib_tag=se&keywords=iphone&qid=1775034851&sr=8-14"
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "availability": "out of stock",
+      "brand": NaN,
+      "currency": NaN,
+      "discount": NaN,
+      "image_url": NaN,
+      "name": "4.4 out of 5 stars",
+      "price": NaN,
+      "rating": 4.4,
+      "reviews": 4.4,
+      "specs": NaN,
+      "url": "javascript:void(0)"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "availability": "out of stock",
+      "brand": NaN,
+      "currency": NaN,
+      "discount": NaN,
+      "image_url": NaN,
+      "name": "OPPO",
+      "price": NaN,
+      "rating": NaN,
+      "reviews": NaN,
+      "specs": NaN,
+      "url": "https://www.amazon.in/Reno15-Glacier-Storage-Additional-Exchange/dp/B0G8YNRBF2/ref=sr_1_18?dib=eyJ2IjoiMSJ9.oOpxYj59wzxFJBcivbt77j9VVkF6B9wdc44VFuiXt-6dMXbXtSHE1kkuocCAtf6Yig5uQcKNbVKIccNpzj0YuaXabMoRPeaAzm_jceWO6NTaSqPX8Sp_7o0Lbzw778PC9f4onQJE4smqAQ74s9m-2xpQZIdbXraV-6hvvVdPsUtMXTKdGYYgiPq3A_rWypMl3IO_q4hG02A2pdXys8p6s2WVaYz8RQHN6EPGyXMrGEk.P3-w9qoj9tDQWOIweTFKl2a3SKsmX-j4bd3QkuvH-ds&dib_tag=se&keywords=iphone&qid=1775034851&sr=8-18"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "availability": "out of stock",
+      "brand": NaN,
+      "currency": NaN,
+      "discount": NaN,
+      "image_url": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/75950f4a-6a25-44be-a932-00f17ad7c0d1._CR0,0,1200,628_SX382_CB1169409_QL70_.jpeg",
+      "name": "Life is easier on iPhone. Life is easier on iPhone. Shop Apple Sponsored",
+      "price": NaN,
+      "rating": NaN,
+      "reviews": NaN,
+      "specs": NaN,
+      "url": "https://aax-eu-zaz.amazon.in/x/c/JLtYpulXUH2gvxTjObWk8DQAAAGdSFJi1AoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICBuMuUJ/clv1c_ek-wBQf2bcbW3lYJYTueBxjUmU2nsAAZKvwDQ5JzPYMGr1l7ZaAAmf7QeVBUP57QqcbflcMQrt2NLFjrrCWJTf311AEQXM70TWNUDBj-_UgHzXnvIdHvUV_ZIflgihrhJpT3s1smQH5qZVPi_wpYvwBbpc-UNlWNEMDx-QdiTEabXDZ30k7VUs7mA7pAT24Mj208YkpKKTN4nkx9dvykqz_bWR1t9UoxMaJ-ZSyqxjWkGQGQJTT7P89gXU2PW_NY5ZNsRAKAcxiisHfEQBukIRbOiMVvXWCPDnWD2uBYYhC2HkchO8nAu7Yq3st-Fusvf6Ql0PnOF0q-RZ83Ovycm_YGUzMywoR56r9it6kmE6yseTmbO3GdEZTcleoWpVxeIjeFd8ymSb0TqjCWMDeeCdTVVPnl2HzPEiUuXf_RUZ-ntwu5oU2zpVgBbzsu86jRoB07c_OwzGJgshWh8O5CpW9amkHihm-E7Se_KmqPk1XFKq3TrSt_BC-ZVX9v5La5HxiQ5P_mLs1iPlfrcr5l3RKzl9XOz_inqdNTWDTCMLjCLHjIn4tZxfaZSEb8FzFToYc1lAcgI7ebwne6_Z8DdksAUCQgvDyM-YqTn0MnsWYR_LZ2epN7G6O3x2ufRPMeuBRbl7AjazAnEdD1FsCPaPDbW0SDmlz5jmmZkax6M3CZUUxMLzkvJJRxAHjJWA3BywlBXptXrbb0zkA-ji_qVoBygfbFOH_6ONZAQ9LB8TRZa0bPff5d9ACtrcoKVhThAWFdPzijKq50Q-ILlt5BYrGIu3rUuJVLXirZt75ZX2Cw-IANcrl2NEvnXz2xHeligIoMVZmMNKwKWZeGP1r21QFXyt5mzrDCHmmb72wSTAH9rM_7aU00bZls2uj1G9W4lFBNGl1dwb5LFRVjvArOhFqSj4EPjeQrsonmOnr5Q8V6lEKfS96rVSRX0QlQRwojWV9ju1Mwp4w-qyOg3uwSNiRH3pL-DyHE3xvVIomTwH_pt1h8HuQ3TxB-RAEnRPbf2Whv6QzZNXl8EyWT6jg6qIk6SMLzdw0j3mWO1UKxqcvK5smGPuXzHRqYVE8lb0DE8j_fXO_oZyHTW7fhzwzSr927Zhv9IIblGc5g4ACoqPK4IFjWYBB-JiLdulEmdIXHhovP43uhvEEIsJDa3ckWMEK-K-397n6TbMR0PnzHz6LOkv5TEDOAn76Jx88RiFvayH890TI44QnmR-IRLxv3Z0SJAmzI2a3WLxYjyNw1fVS0rlKrkANwGgNBuUbXHumKDrffDaWlyYzOBeXHZFmyE-MlMhknl2R8XX22ayOuiRztfwlJ7kr5A77yJe1ZYHLkA7Py-TmqVU_DhVHx8fJP_Sst9mKbQogftnRzzFW7aot4x5BwcRXA33VWW6WPG2O9RodHDqiFbnSTiszHj6WXe7Jz4eCTXN1R3eSUPv6MQX_04pb7WAt5rUjoYuV4LBfvM1O48MKjRsYBmyFQnNs0vv922SHjshVJXxouNg38_dt-K32-BV8cbvsin0qDo_0WA0HJWuuy2Jo5Eg9RYnRGo3vryUtVje1ZBFuBH3xLe8Fte0qXXhKJR5LiRfD-KaqJrhPqZ_Zn9ZOrXOt0rtgo8UaFJMK3mSHDd5uP_gv8x9v6bQX36Q/https://www.amazon.in/stores/page/4F1CFFDA-292D-4D74-B9FA-53C8A5778F28/?_encoding=UTF8&store_ref=SB_A06672112EED9OIE17Z4M-A03272532RL5RKRJHZ2Q3&pd_rd_plhdr=t&aaxitk=8945ac02a4b3efa6b1dd8e87203b693c&hsa_cr_id=1681504330102&lp_query=iphone&lp_slot=auto-sparkle-hsa-tetris&aref=YRpI0bKkZ4&ref_=sbx_be_s_sparkle_lsscd_bkgd&pd_rd_w=YHG8C&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=GZ5C978S01EGW9AJXK4G&pd_rd_wg=vBobt&pd_rd_r=0164344f-88ee-4947-ace3-a971f1fe6fb1"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "availability": "out of stock",
+      "brand": NaN,
+      "currency": NaN,
+      "discount": NaN,
+      "image_url": NaN,
+      "name": "Results",
+      "price": NaN,
+      "rating": NaN,
+      "reviews": NaN,
+      "specs": NaN,
+      "url": NaN
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "name": "var aPageStart = (new Date()).getTime(); var ue_t0=ue_t0||+new Date(); window.ue_ihb = (window.ue_ihb || window.ueinit || 0) + 1; if (window.ue_ihb === 1) { var ue_csm = window, ue",
+      "price": null,
+      "currency": "INR",
+      "rating": 4.5,
+      "reviews_count": 36,
+      "availability": "In Stock",
+      "url": "https://www.amazon.in/s?k=iphone",
+      "image_url": "",
+      "source": "meta",
+      "scraped_at": "2026-04-01T09:25:45.703123+00:00",
+      "confidence": 0.4374,
+      "_field_sources": {
+        "name": "regex",
+        "price": "missing",
+        "currency": "regex",
+        "rating": "regex",
+        "reviews_count": "regex",
+        "availability": "regex",
+        "url": "dom",
+        "image_url": "missing"
+      }
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "name": "Samsung",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/Samsung-Smartphone-Titanium-Snapdragon-ProVisual/dp/B0DSKMV3ZC/ref=sr_1_14?dib=eyJ2IjoiMSJ9.QUITJXYydjEUkvbFygwMsyyRj5FLt5fApFxEYI_dRQjK592wMKMHf_gdHzBS0AHYM8NT-_egUa74GRNVOBmbZv41CnQ_kLDV2m-drXhB7G71Z0vft_laNH2GDmxBl2USXs5eycmTrdgIVweAjnvatK_Nj6EUJ41ZKTE82DmIFgIuKW23GyGfGb3CNp3_2WVlcdl5N7pIGGNBlLZT3wqSneN6Mkx-1tpFTheS23r2LNw.V8IgwOL-w38dKJBolfHQHP-sqZP3yG03NEEMOrGH4tM&dib_tag=se&keywords=iphone&qid=1775035541&sr=8-14",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T09:25:49.596078+00:00",
+      "confidence": "0.3746"
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "name": "Samsung",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/Samsung-Smartphone-Storage-ProVisual-Battery/dp/B0FNMN6D5K/ref=sr_1_13?dib=eyJ2IjoiMSJ9.QUITJXYydjEUkvbFygwMsyyRj5FLt5fApFxEYI_dRQjK592wMKMHf_gdHzBS0AHYM8NT-_egUa74GRNVOBmbZv41CnQ_kLDV2m-drXhB7G71Z0vft_laNH2GDmxBl2USXs5eycmTrdgIVweAjnvatK_Nj6EUJ41ZKTE82DmIFgIuKW23GyGfGb3CNp3_2WVlcdl5N7pIGGNBlLZT3wqSneN6Mkx-1tpFTheS23r2LNw.V8IgwOL-w38dKJBolfHQHP-sqZP3yG03NEEMOrGH4tM&dib_tag=se&keywords=iphone&qid=1775035541&sr=8-13",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T09:25:49.596500+00:00",
+      "confidence": "0.3746"
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "name": "var aPageStart = (new Date()).getTime(); var ue_t0=ue_t0||+new Date(); window.ue_ihb = (window.ue_ihb || window.ueinit || 0) + 1; if (window.ue_ihb === 1) { var ue_csm = window, ue",
+      "price": null,
+      "currency": "INR",
+      "rating": 4.5,
+      "reviews_count": 36,
+      "availability": "In Stock",
+      "url": "https://www.amazon.in/s?k=iphone",
+      "image_url": "",
+      "source": "meta",
+      "scraped_at": "2026-04-01T09:27:19.311410+00:00",
+      "confidence": 0.4374,
+      "_field_sources": {
+        "name": "regex",
+        "price": "missing",
+        "currency": "regex",
+        "rating": "regex",
+        "reviews_count": "regex",
+        "availability": "regex",
+        "url": "dom",
+        "image_url": "missing"
+      }
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "₹1,18,999₹1,18,999 M.R.P: ₹1,29,999M.R.P: ₹1,29,999₹1,29,999",
+      "price": "118999.0",
+      "currency": "₹",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/Samsung-Smartphone-Titanium-Snapdragon-ProVisual/dp/B0DSKMV3ZC/ref=sr_1_12?dib=eyJ2IjoiMSJ9.f1ForpC7J2NpKKgSE-uQIpeblodVjouqPq8f2pqMAi6dMXbXtSHE1kkuocCAtf6Ya5A8PEN3IoVtGL-2Jd9ceVCUgkCt_w7IQ9Ce7bkO6QtTtzP0Cg0ckTJHcuyj6N2JUJ9TckOu6V93cAIvBcDEzInhsZfiJqX_C_ImC_QQsYiZUc_ABqVEhliKmQaP78QlPCeGCbQ7-QIzJ3uypDb-aV9zdRIsuoe_A3my4rfJA2I.zN-QV4niQWi9lPIae9NKjMgkoThnhZU5qY9ZUgRwnTk&dib_tag=se&keywords=iphone&qid=1775035638&sr=8-12",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T09:27:19.356429+00:00",
+      "confidence": "0.6572"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "₹55,499₹55,499 M.R.P: ₹59,999M.R.P: ₹59,999₹59,999",
+      "price": "55499.0",
+      "currency": "₹",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/OnePlus-Charcoal-Snapdragon%C2%AE-Personalised-Game-Changing/dp/B0FZSXYV6K/ref=sr_1_18?dib=eyJ2IjoiMSJ9.f1ForpC7J2NpKKgSE-uQIpeblodVjouqPq8f2pqMAi6dMXbXtSHE1kkuocCAtf6Ya5A8PEN3IoVtGL-2Jd9ceVCUgkCt_w7IQ9Ce7bkO6QtTtzP0Cg0ckTJHcuyj6N2JUJ9TckOu6V93cAIvBcDEzInhsZfiJqX_C_ImC_QQsYiZUc_ABqVEhliKmQaP78QlPCeGCbQ7-QIzJ3uypDb-aV9zdRIsuoe_A3my4rfJA2I.zN-QV4niQWi9lPIae9NKjMgkoThnhZU5qY9ZUgRwnTk&dib_tag=se&keywords=iphone&qid=1775035638&sr=8-18",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T09:27:19.356746+00:00",
+      "confidence": "0.6572"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Need help?",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=201889520",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T09:29:24.275527+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Conditions of Use & Sale",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T09:29:24.275884+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "₹1,18,999₹1,18,999 M.R.P: ₹1,29,999M.R.P: ₹1,29,999₹1,29,999",
+      "price": "118999.0",
+      "currency": "₹",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/Samsung-Smartphone-Titanium-Snapdragon-ProVisual/dp/B0DSKMV3ZC/ref=sr_1_14?dib=eyJ2IjoiMSJ9.QUITJXYydjEUkvbFygwMsyyRj5FLt5fApFxEYI_dRQjK592wMKMHf_gdHzBS0AHYM8NT-_egUa74GRNVOBmbZk9ofqDWDtVq0MdxgI_yTEBglWDnLyg8NV8PB08kQbReXs5eycmTrdgIVweAjnvatK_Nj6EUJ41ZKTE82DmIFgIuKW23GyGfGb3CNp3_2WVlcdl5N7pIGGNBlLZT3wqSneN6Mkx-1tpFTheS23r2LNw.D2Ryc9CNC_I6F9MpMXMAXF-OKQsev7er7QDbOWCwSic&dib_tag=se&keywords=iphone&qid=1775035773&sr=8-14",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T09:29:45.393408+00:00",
+      "confidence": "0.6572"
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "name": "Your Account",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/css/homepage.html?ref_=nav_AccountFlyout_ya",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T09:29:45.398032+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Samsung",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/Samsung-Smartphone-Titanium-Snapdragon-ProVisual/dp/B0DSKMV3ZC/ref=sr_1_14?dib=eyJ2IjoiMSJ9.QUITJXYydjEUkvbFygwMsyyRj5FLt5fApFxEYI_dRQjK592wMKMHf_gdHzBS0AHYM8NT-_egUa74GRNVOBmbZk9ofqDWDtVq0MdxgI_yTEBglWDnLyg8NV8PB08kQbReXs5eycmTrdgIVweAjnvatK_Nj6EUJ41ZKTE82DmIFgIuKW23GyGfGb3CNp3_2WVlcdl5N7pIGGNBlLZT3wqSneN6Mkx-1tpFTheS23r2LNw.D2Ryc9CNC_I6F9MpMXMAXF-OKQsev7er7QDbOWCwSic&dib_tag=se&keywords=iphone&qid=1775035773&sr=8-14",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T09:29:45.398205+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "name": "Your Account",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/css/homepage.html?ref_=nav_AccountFlyout_ya",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T09:31:03.606607+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Need help?",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=201889520",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T10:06:49.356582+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Conditions of Use & Sale",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T10:06:49.356934+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "name": "All products | Books to Scrape - Sandbox Books to Scrape We love being scraped! Home All products Books Travel Mystery Historical Fiction Sequential Art Classics Philosophy Romance",
+      "price": null,
+      "currency": "USD",
+      "rating": null,
+      "reviews_count": null,
+      "availability": "In Stock",
+      "url": "https://books.toscrape.com/?q=books",
+      "image_url": "",
+      "source": "meta",
+      "scraped_at": "2026-04-01T10:07:07.130733+00:00",
+      "confidence": 0.3098,
+      "_field_sources": {
+        "name": "regex",
+        "price": "missing",
+        "currency": "regex",
+        "rating": "missing",
+        "reviews_count": "missing",
+        "availability": "regex",
+        "url": "dom",
+        "image_url": "missing"
+      }
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "name": "All products | Books to Scrape - Sandbox Books to Scrape We love being scraped! Home All products Books Travel Mystery Historical Fiction Sequential Art Classics Philosophy Romance",
+      "price": null,
+      "currency": "USD",
+      "rating": null,
+      "reviews_count": null,
+      "availability": "In Stock",
+      "url": "https://books.toscrape.com/?q=books",
+      "image_url": "",
+      "source": "meta",
+      "scraped_at": "2026-04-01T10:09:29.095975+00:00",
+      "confidence": 0.3098,
+      "_field_sources": {
+        "name": "regex",
+        "price": "missing",
+        "currency": "regex",
+        "rating": "missing",
+        "reviews_count": "missing",
+        "availability": "regex",
+        "url": "dom",
+        "image_url": "missing"
+      }
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "name": "All products | Books to Scrape - Sandbox Books to Scrape We love being scraped! Home All products Books Travel Mystery Historical Fiction Sequential Art Classics Philosophy Romance",
+      "price": null,
+      "currency": "USD",
+      "rating": null,
+      "reviews_count": null,
+      "availability": "In Stock",
+      "url": "https://books.toscrape.com/?q=books",
+      "image_url": "",
+      "source": "meta",
+      "scraped_at": "2026-04-01T10:10:47.238680+00:00",
+      "confidence": 0.3098,
+      "_field_sources": {
+        "name": "regex",
+        "price": "missing",
+        "currency": "regex",
+        "rating": "missing",
+        "reviews_count": "missing",
+        "availability": "regex",
+        "url": "dom",
+        "image_url": "missing"
+      }
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "name": "All products | Books to Scrape - Sandbox Books to Scrape We love being scraped! Home All products Books Travel Mystery Historical Fiction Sequential Art Classics Philosophy Romance",
+      "price": null,
+      "currency": "USD",
+      "rating": null,
+      "reviews_count": null,
+      "availability": "In Stock",
+      "url": "https://books.toscrape.com/?q=books",
+      "image_url": "",
+      "source": "meta",
+      "scraped_at": "2026-04-01T10:12:39.719825+00:00",
+      "confidence": 0.3098,
+      "_field_sources": {
+        "name": "regex",
+        "price": "missing",
+        "currency": "regex",
+        "rating": "missing",
+        "reviews_count": "missing",
+        "availability": "regex",
+        "url": "dom",
+        "image_url": "missing"
+      }
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "name": "All products | Books to Scrape - Sandbox Books to Scrape We love being scraped! Home All products Books Travel Mystery Historical Fiction Sequential Art Classics Philosophy Romance",
+      "price": null,
+      "currency": "USD",
+      "rating": null,
+      "reviews_count": null,
+      "availability": "In Stock",
+      "url": "https://books.toscrape.com/?q=books",
+      "image_url": "",
+      "source": "meta",
+      "scraped_at": "2026-04-01T10:14:07.867127+00:00",
+      "confidence": 0.3098,
+      "_field_sources": {
+        "name": "regex",
+        "price": "missing",
+        "currency": "regex",
+        "rating": "missing",
+        "reviews_count": "missing",
+        "availability": "regex",
+        "url": "dom",
+        "image_url": "missing"
+      }
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "name": "All products | Books to Scrape - Sandbox Books to Scrape We love being scraped! Home All products Books Travel Mystery Historical Fiction Sequential Art Classics Philosophy Romance",
+      "price": null,
+      "currency": "USD",
+      "rating": null,
+      "reviews_count": null,
+      "availability": "In Stock",
+      "url": "https://books.toscrape.com/?q=books",
+      "image_url": "",
+      "source": "meta",
+      "scraped_at": "2026-04-01T10:15:52.142296+00:00",
+      "confidence": 0.3098,
+      "_field_sources": {
+        "name": "regex",
+        "price": "missing",
+        "currency": "regex",
+        "rating": "missing",
+        "reviews_count": "missing",
+        "availability": "regex",
+        "url": "dom",
+        "image_url": "missing"
+      }
+    }
+  },
+  {
+    "reason": "low_confidence",
+    "raw": {
+      "name": "All products | Books to Scrape - Sandbox Books to Scrape We love being scraped! Home All products Books Travel Mystery Historical Fiction Sequential Art Classics Philosophy Romance",
+      "price": null,
+      "currency": "USD",
+      "rating": null,
+      "reviews_count": null,
+      "availability": "In Stock",
+      "url": "https://books.toscrape.com/?q=books",
+      "image_url": "",
+      "source": "meta",
+      "scraped_at": "2026-04-01T10:17:08.271217+00:00",
+      "confidence": 0.3098,
+      "_field_sources": {
+        "name": "regex",
+        "price": "missing",
+        "currency": "regex",
+        "rating": "missing",
+        "reviews_count": "missing",
+        "availability": "regex",
+        "url": "dom",
+        "image_url": "missing"
+      }
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Need help?",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=201889520",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T10:17:55.803121+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Conditions of Use & Sale",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T10:17:55.803561+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Need help?",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=201889520",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T12:43:25.737943+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Conditions of Use & Sale",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T12:43:25.738283+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Need help?",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=201889520",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T12:43:35.116251+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Conditions of Use & Sale",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T12:43:35.117033+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Need help?",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=201889520",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T12:43:47.097419+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Conditions of Use & Sale",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T12:43:47.097761+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Need help?",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=201889520",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T12:44:00.106445+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Conditions of Use & Sale",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T12:44:00.106789+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Need help?",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=201889520",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T12:44:11.807158+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Conditions of Use & Sale",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T12:44:11.807520+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Need help?",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=201889520",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T12:44:25.158247+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Conditions of Use & Sale",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T12:44:25.158556+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Need help?",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=201889520",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T12:49:23.494290+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Conditions of Use & Sale",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T12:49:23.494630+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Need help?",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=201889520",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T12:49:31.918539+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Conditions of Use & Sale",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T12:49:31.920612+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Need help?",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=201889520",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T12:49:41.890977+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Conditions of Use & Sale",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T12:49:41.891444+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Need help?",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=201889520",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T12:49:53.010950+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Conditions of Use & Sale",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T12:49:53.011305+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Need help?",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=201889520",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T12:50:05.275846+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Conditions of Use & Sale",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T12:50:05.276433+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Need help?",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=201889520",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T12:50:22.724067+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Conditions of Use & Sale",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "out of stock",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T12:50:22.724412+00:00",
+      "confidence": "0.3796"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Need help?",
+      "description": "",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=201889520",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T13:30:30.832966+00:00",
+      "confidence": "0.322"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Need help?",
+      "description": "",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=201889520",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T13:34:02.658367+00:00",
+      "confidence": "0.322"
+    }
+  },
+  {
+    "reason": "missing_or_invalid_name",
+    "raw": {
+      "name": "Conditions of Use & Sale",
+      "description": "",
+      "price": "",
+      "currency": "",
+      "discount": "",
+      "rating": "",
+      "reviews": "",
+      "brand": "",
+      "specs": "",
+      "availability": "",
+      "url": "https://www.amazon.in/gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou",
+      "image_url": "",
+      "reviews_count": "",
+      "source": "dom",
+      "scraped_at": "2026-04-01T13:34:02.658777+00:00",
+      "confidence": "0.322"
+    }
+  }
+]
