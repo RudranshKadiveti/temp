@@ -1,0 +1,79 @@
+===== page_001.txt =====
+DEN-013
+
+===== page_002.txt =====
+DEPARTMENT OF PERIODONTOLOGY
+MANIPAL COLLEGE OF DENTAL SCIENCES, MANIPAL
+
+NAME: MANJUNATH H B
+HOSPITAL NO: 03257388 M 52 Y
+Chief Complaint / HOPI: pt referred from room @ for oral prophylaxis
+Medical History: H/o chronic Sialadenitis
+pt is + anti-depressant.
+
+Previous Dental History
+
+Gingival Status:
+PSR
+
+Frenal Attachment: (Gingival/ mucosal/ papillary/ papillary penetrating)
+Vestibular Depth: (Shallow/ Adequate)
+Width of attached gingiva: (Adequate/ Inadequate)
+
+Gingival Enlargements:
+
+Crown Lengthening : (esthetic/ restorative)
+
+Wasting diseases:
+
+POCKETS:
+8 7 6 5 4 3 2 1 1 2 3 4 5 6 7 8
+
+DATE: 15/11/24
+TIME:
+
+Debris: + Calculus: +++
+Stains: Present/Absent
+✓ (+++)
+Pathological migration:
+
+Tooth mobility (Grade):
+
+Furcation Involvement (Grade):
+
+Gingival recession: (Miller's): NRD
+
+Periodontal Abscess:
+
+Endo-Perio:
+
+TFO:
+
+Food Impaction: (Plunger cusp):
+
+===== page_003.txt =====
+Treatment Plan.
+- Phase I: Subgingival scaling + OHI
+- Phase II: Not required
+- Phase III: Not required
+- Phase IV: Pt. recalled after 3 months
+
+FOLLOW UP CHART
+
+CAL
+PERIODONTAL POCKET
+8 7 6 5 4 3 2 1 1 2 3 4 5 6 7 8
+
+PERIODONTAL POCKET
+CAL
+8 7 6 5 4 3 2 1 1 2 3 4 5 6 7 8
+
+Subgingival scaling done. OHI given
+Dr. Moushmi
+(CP - II)
+
+SIGNATURE OF OP EXAMINER
+Dr. Riddhi (CP - III)
+Dr. Ushak (CP - II)
+
+SIGNATURE OF EXAMINER

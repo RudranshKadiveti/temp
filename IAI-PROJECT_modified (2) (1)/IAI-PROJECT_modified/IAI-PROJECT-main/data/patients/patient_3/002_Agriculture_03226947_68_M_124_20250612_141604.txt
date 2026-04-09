@@ -1,0 +1,2 @@
+===== page_001.txt =====
+Ht.: 182 Wt.: 62 Kg BP: mmHg Pulse: /Min Temp.: °F Spo2: %

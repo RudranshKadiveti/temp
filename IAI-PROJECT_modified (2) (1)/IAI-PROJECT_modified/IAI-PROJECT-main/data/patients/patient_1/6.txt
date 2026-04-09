@@ -1,0 +1,49 @@
+===== page_001.txt =====
+Previous Dental History
+Debris: +
+Calculus: +++
+Stains: Present/Absent +
+
+Gingival Status:
+PSR
+1 1 1
+1 1 1
+
+Frenal Attachment: (Gingival/ mucosal/ papillary/ papillary penetrating)
+Vestibular Depth: (Shallow/ Adequate)
+Width of attached gingiva: (Adequate/ Inadequate)
+
+Gingival Enlargements:
+
+Crown Lengthening : (esthetic/ restorative)
+Wasting diseases:
+
+POCKETS:
+8 7 6 5 4 3 2 1 1 2 3 4 5 6 7 8
+* Gen- spacing
+
+Pathological migration:
+Tooth mobility (Grade):
+Furcation Involvement (Grade):
+Gingival recession: (Miller's):
+Periodontal Abscess:
+Endo-Perio:
+TFO:
+Food Impaction: (Plunger cusp):
+
+===== page_002.txt =====
+Lab Investigations:
+Radiographic Findings:
+Diagnosis: Chronic gen. gingivitis
+Treatment Plan: Adv. scaling + OH
+SIGNATURE OF OP EXAMINER
+Dr. Vishala / Dr. Tanusha
+Dr. Shilpa
+FOLLOW UP CHART
+CAL
+PERIODONTAL POCKET
+8 7 6 5 4 3 2 1 1 2 3 4 5 6 7 8
+PERIODONTAL POCKET
+CAL
+8 7 6 5 4 3 2 1 1 2 3 4 5 6 7 8
+SIGNATURE OF EXAMINER

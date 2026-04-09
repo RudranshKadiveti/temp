@@ -1,0 +1,9 @@
+{
+  "name": "com.ai_scraper.host",
+  "description": "AI Scraper native host",
+  "path": "D:\\IAI Project\\run_host.bat",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://jpjpjeacgfphnnnkiajffpfmmbcphdkk/"
+  ]
+}

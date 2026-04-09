@@ -1,0 +1,16 @@
+===== page_001.txt =====
+CS Print Time : 08:37:20 AM
+Patient Seen Time :
+Service date History,Examination,Treatment and Operation Inv. Ordered
+Ht. : Wt. : 84.5 Kg BP : 133, 88 mmHg Pulse : 68 /Min Temp. : °F Spo2 : % 
+31057/15
+9:30 am
+213 Dr. Pannu (R 1 (sy 3)
+- Patient with doughty
+- worsening 1 depresion symptoms one past month.
+- No suicidal ideation, suspicious towards with
+Iny: RBD - recent episode with psychosis
+hypotension
+Adr: Admit 1 by 3 in 1 ward
+medications as per drug sheet
+high with protocol.

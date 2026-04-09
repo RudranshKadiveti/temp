@@ -1,0 +1,16 @@
+===== page_001.txt =====
+CS Print Time : 02:35:15 PM
+Patient Seen Time :
+Service date
+History, Examination, Treatment, Progress and Operation
+Ht. :        Wt. : 86.8 Kg    BP : 140/82 mmHg   Pulse : 88 /Min Temp. : _F Spo
+15/11/24
+SLB De Samaelli (SR↓Psy 02)
+- Patient sun
+- Denic anxiety 5x
+- B1slo : Adenale
+- No fresh complaint
+Plan: To WT
+T. D. Veniz XR 75mg
+007
+( SR↓PH 02)

@@ -1,0 +1,125 @@
+===== page_001.txt =====
+CASE HISTORY
+• Presenting Complaint : c/o ringing sensation in Rt ear
+Since 6mths
+c/o reduced hearing R ear
+Since 4 years
+• Audiologic History
+Onset & Course :
+Family history :
+Exposure to noise/drugs :
+Head trauma or accidents :
+• Communication History : Present in R
+Difficult hearing situations
+Telephone Noise TV Theatre Parties Temple
+Quiet Conferences Classroom Voice: M F C
+Difficulty localizing :
+Use of amplification :
+Communication needs:
+MR - 513
+P.T.O.
+AUDIOLOGICAL EVALUATION
+
+===== page_002.txt =====
+ENT findings: R: CP in A1Q & PIQ D: TS patch,
+e profuse MPD + Bulge + 8
+M&Emcongented Interrupted COL
+
+• Otologic History
+Previous ENT surgery :
+Ear pain / Ear discharge : Ear discharge present in R
+during episodes of cold
+Tinnitus : Present, intermittent in nature;
+Dizziness : aggravates during psychological stress
+Ear infections :
+
+Medical History
+Kidney disease :
+Diabetes :
+Hypertension : Present, under medication for
+Same since 7-8 yrs
+Cancer/ Chemotherapy
+Vascular/ Cardiac problems
+Mumps / Meningitis / TB / AIDS / Others :
+H/O smoking/ alcohol :
+Neurologic problems :
+Head and neck defects :
+Psychologic problems :
+
+===== page_003.txt =====
+HEARING LEVEL
+(ANSI -)
+FREQUENCY (Hz)
+FREQUENCY (Hz)
+SPEECH AUDIOMETRY
+RIGHT
+LEFT
+PTA
+(dBHL)
+70
+31.7
+SRT
+(dBHL)
+75
+35
+SDS
+(1/2)
+90%
+95%
+UCL/ DR
+(dBHL)
+>100
+>100
+MCL
+SAT
+KEY TO SYMBOLS
+RIGHT
+LEFT
+AIR CONDUCTION
+UNMASKED
+MASKED
+NO RESPONSE
+BONE CONDUCTION
+UNMASKED
+MASKED
+NO RESPONSE
+S
+S
+(R) H
+SOUND FIELD
+NO RESPONSE
+AIDED RESPONSE
+SPECIAL TESTS
+EAR
+Right
+Left
+FREQUENCY (Hz)
+500
+1000
+2000
+4000
+500
+1000
+2000
+4000
+OLSEN & NOFFSINGER'S
+TONE DECAY TEST
+STAT
+ABLB
+SISI (Oblique/Modified)
+Glycerol Test
+
+===== page_004.txt =====
+IMPRESSION
+R: Moderately-severe mixed
+hearing loss
+L: Mild sensorineural hearing loss
+
+RECOMMENDATIONS
+Counselling : Done regarding hearing status
+ENT
+HAT
+Follow up
+
+Audiologist
+3/21.

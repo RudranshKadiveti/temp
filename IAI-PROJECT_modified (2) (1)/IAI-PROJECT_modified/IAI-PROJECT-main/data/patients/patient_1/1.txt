@@ -1,0 +1,17 @@
+===== page_001.txt =====
+CS Print Time : 09:05:33 AM
+Patient Seen Time :
+Service date History,Examination,Treatment,Progress and Operation Inv. Ordered
+Ht. : Wt. : 82.4 Kg BP : 141/89 mmHg Pulse : 74 /Min Temp. : 98.6°F Spo2 : 98%
+Dr. Tushar (Lutein PSY
+SB Dr. Sannadhi (SR 02)
+- Patient seen.
+- Low mood
+↓ interest
+anxious elimination (not financial reason)
+↓ sleep.
+↓ attention & concentration
+→ Plan. A T. Venlafaxine 150mg OD
+• Regular BP monitoring
+• FUP 2/12
+(SR 02)

@@ -1,0 +1,70 @@
+===== page_001.txt =====
+CS Print Time : 11:11:55 AM
+Patient Seen Time :
+Service date History,Examination,Treatment,Progress and Operation Inv. Ordered
+Ht. : Wt. : Kg BP : mmHg Pulse : /Min Temp. : °F Spo2 : %
+P4P Pleva BL
+onadol +1.50 DS BL
+6/6
+(8)
+6/6
+NCT ( 14.2
+13.7
+11.20 A
+11.15
+(2)
+onf 2.25 DS (BL) ~6
+21/3125
+11:40AM
+B Dr Shrestha (Bye 2)
+C10 ↓ near vision.
+Nil comarbid
+HLO use of NV glasses present
+not comfortable
+Manipal - 576104 , Udupi District,Karnataka
+Phone : 0820-2571967 / Fax : 0820 - 2571934 , Email : helpdesk.kh@manipal.edu
+
+===== page_002.txt =====
+MO - H/O Ocular Sx /w
+OLB - L
+Com h/w
+ALS - 
+- cay @
+- K- Clear
+- AC- ND, OE
+- 3mm, RAP
+- NO RAPP
+- lens clear
+- Cndil P - CDR 0.5:1
+- cssm @
+- KERMANA N
+- Acu - MV Glasses present
+- To RW young (SC)
+DR. SHRESTHA SHAH
+JUNIOR RESIDENT
+DEPT. OF OPHTHALMOLOGY
+KMC, MANIPAL
+REG. NO. - 168282
+11:45AM
+
+===== page_003.txt =====
+MANJUNATH H B
+Name: 
+Hospital No.: 
+RIGHT Eye 6/6
+LEFT Eye 6/6
+Sphere    Cyl    Axis
+D.V. 6/6
+N.V. N6 +2.25
+I.P.D.
+Sphere    Cyl    Axis
++2.25
+Bifocal: KR/Exec//D/Tri/Omni
+Colour: White/SP2Alpha/Photogrey/Photosun/Photobrown
+Remarks: Constant Use/D.V. Only/N.V. Only
+MR - 034
+DR. SHRESTHA SHAH
+JUNIOR RESIDENT
+DEPT. OF OPHTHALMOLOGY
+KMC, MANIPAL
+REG. NO. - 168282

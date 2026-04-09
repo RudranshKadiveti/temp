@@ -1,0 +1,870 @@
+{
+  "patients": [
+    {
+      "Patient_ID": "patient_1",
+      "fields": {
+        "Patient_ID": "patient_1",
+        "Hospital_No": "03257388",
+        "ICD_Code": "Not documented",
+        "Age": "52",
+        "Sex": "Male",
+        "HTN": "Not documented",
+        "DM": "Not documented",
+        "Family_History": "No",
+        "Family_History_Details": "Not documented",
+        "Chief_Complaint": "swelling reported a lower left throat region since 2 weeks, referred for oral prophylaxis",
+        "Mouth_Opening_Status": "Normal",
+        "Mouth_Opening_Details": "Normal",
+        "Soft_Tissue_Exam": "Nodular growth - firm to hard in consistency",
+        "Specific_Findings": "Nodular growth - firm to hard in consistency, Submandibular lymphadenopathy, severe tenderness",
+        "Lesion_Type": "Nodular growth",
+        "Lesion_Color": "Not documented",
+        "Lesion_Site": "Submandibular region",
+        "Burning_Sensation": "Not documented",
+        "Pain_Details": "severe pain a tooth, severe tenderness",
+        "Bleeding_Present": "No",
+        "Bleeding_Details": "No H/o bleeding, pus discharge",
+        "Cervical_Lymphadenopathy": "Positive",
+        "Cervical_Lymphadenopathy_Details": "One Submandibular lymph node palpable, firm to hard in consistency, calcified, III, IV lymph node",
+        "Clinical_Diagnosis": "Sialolithiasis with (L) Submandibular calcified lymph node",
+        "Final_Provisional_Dx": "Sialolithiasis with (L) Submandibular calcified lymph node",
+        "Differential_Diagnosis": "Not documented",
+        "TNM_Stage": "Not documented",
+        "Histological_Subgroup": "Not documented",
+        "Investigations": "USH and OHL, OHL shows a well defined radiopaque dense region at the submandibular region measuring approx. 2cm x 1.5 cm, USH shows the sialolithiasis with multiple subcentimetric ductal calculi, III, IV lymph node",
+        "Biopsy_Details": "Not documented",
+        "Treatment_Plan": "Oral Surgery Evaluation, Subgingival scaling + OHI",
+        "Tobacco_Use": "Yes",
+        "Tobacco_Use_Details": "Tobacco Chewing \"4 years",
+        "Areca_Nut_Use": "Not documented",
+        "Areca_Nut_Details": "Not documented",
+        "Alcohol_Use": "Not documented",
+        "Alcohol_Use_Details": "Not documented",
+        "Oral_Hygiene_Status": "Poor",
+        "Trauma_Irritation_History": "No"
+      },
+      "patient_summary": "A 52-year-old male presented with a chief complaint of swelling in the lower left throat region for 2 weeks, which started 3 years ago and fluctuated in size, accompanied by severe tooth pain. He has a history of tobacco chewing for 4 years and poor oral hygiene. Examination revealed a normal mouth opening, a firm to hard nodular growth, and palpable, firm to hard submandibular lymphadenopathy. Investigations (USH and OHL) confirmed sialolithiasis with multiple ductal calculi and a calcified lymph node. The treatment plan includes oral surgery evaluation and subgingival scaling with oral hygiene instructions.",
+      "extra_findings": [
+        {
+          "category": "Medical History",
+          "title": "Chronic Sialadenitis",
+          "detail": "Patient has a history of chronic Sialadenitis.",
+          "evidence": "H/o chronic Sialadenitis",
+          "source_hint": "2.txt"
+        },
+        {
+          "category": "Medication",
+          "title": "Anti-depressant use",
+          "detail": "Patient is on anti-depressant medication.",
+          "evidence": "pt is + anti-depressant.",
+          "source_hint": "2.txt"
+        },
+        {
+          "category": "Oral Findings",
+          "title": "Gingival Status",
+          "detail": "Debris: +, Calculus: +++",
+          "evidence": "Debris: + Calculus: +++",
+          "source_hint": "2.txt"
+        },
+        {
+          "category": "Diagnosis",
+          "title": "Chronic generalized gingivitis",
+          "detail": "Diagnosis of chronic generalized gingivitis.",
+          "evidence": "Diagnosis: Chronic gen. gingivitis",
+          "source_hint": "6.txt"
+        }
+      ],
+      "evidence_map": [
+        {
+          "field": "Hospital_No",
+          "evidence": "HOSPITAL NO: 03257388",
+          "source_hint": "2.txt"
+        },
+        {
+          "field": "Age",
+          "evidence": "M 52 Y",
+          "source_hint": "2.txt"
+        },
+        {
+          "field": "Sex",
+          "evidence": "M 52 Y",
+          "source_hint": "2.txt"
+        },
+        {
+          "field": "Family_History",
+          "evidence": "Family History: Past Dental History: + NRMH.",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Chief_Complaint",
+          "evidence": "Chief Complaint: throat region since 2 weeks",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Chief_Complaint",
+          "evidence": "H/o swelling reported a lower left throat region since 2 weeks",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Chief_Complaint",
+          "evidence": "Chief Complaint / HOPI: pt referred from room @ for oral prophylaxis",
+          "source_hint": "2.txt"
+        },
+        {
+          "field": "Mouth_Opening_Status",
+          "evidence": "Mouth opening – Normal",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Mouth_Opening_Details",
+          "evidence": "Mouth opening – Normal",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Soft_Tissue_Exam",
+          "evidence": "Nodular growth - firm to hard in consistency",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Specific_Findings",
+          "evidence": "Nodular growth - firm to hard in consistency",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Specific_Findings",
+          "evidence": "Submandibular lymphadenopathy",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Specific_Findings",
+          "evidence": "Mildly mobile with severe tenderness.",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Lesion_Type",
+          "evidence": "Nodular growth - firm to hard in consistency",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Lesion_Site",
+          "evidence": "One Submandibular lymph node palpable",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Lesion_Site",
+          "evidence": "OHL shows a well defined radiopaque dense region at the submandibular region",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Pain_Details",
+          "evidence": "onset of severe pain a tooth",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Pain_Details",
+          "evidence": "severe tenderness.",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Bleeding_Present",
+          "evidence": "No H/o bleeding, pus discharge",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Bleeding_Details",
+          "evidence": "No H/o bleeding, pus discharge",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Cervical_Lymphadenopathy",
+          "evidence": "One Submandibular lymph node palpable",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Cervical_Lymphadenopathy",
+          "evidence": "Submandibular lymphadenopathy",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Cervical_Lymphadenopathy",
+          "evidence": "USH shows the sialolithiasis with multiple subcentimetric ductal calculi, III, IV lymph node.",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Cervical_Lymphadenopathy",
+          "evidence": "Sialolithiasis with (L) Submandibular calcified lymph node",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Cervical_Lymphadenopathy_Details",
+          "evidence": "One Submandibular lymph node palpable firm to hard in consistency",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Cervical_Lymphadenopathy_Details",
+          "evidence": "USH shows the sialolithiasis with multiple subcentimetric ductal calculi, III, IV lymph node.",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Cervical_Lymphadenopathy_Details",
+          "evidence": "Sialolithiasis with (L) Submandibular calcified lymph node",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Clinical_Diagnosis",
+          "evidence": "Final Diagnosis: Sialolithiasis with (L) Submandibular calcified lymph node",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Final_Provisional_Dx",
+          "evidence": "Final Diagnosis: Sialolithiasis with (L) Submandibular calcified lymph node",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Investigations",
+          "evidence": "Adv. USH and OHL",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Investigations",
+          "evidence": "OHL shows a well defined radiopaque dense region at the submandibular region measuring approx. 2cm x 1.5 cm",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Investigations",
+          "evidence": "USH shows the sialolithiasis with multiple subcentimetric ductal calculi, III, IV lymph node.",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Treatment_Plan",
+          "evidence": "Treatment Plan: 1) Oral Surgery Evaluation",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Treatment_Plan",
+          "evidence": "Phase I: Subgingival scaling + OHI",
+          "source_hint": "2.txt"
+        },
+        {
+          "field": "Tobacco_Use",
+          "evidence": "Oral Abusive Habits - Tobacco Chewing",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Tobacco_Use_Details",
+          "evidence": "Oral Abusive Habits - Tobacco Chewing \"4 years",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Oral_Hygiene_Status",
+          "evidence": "Oral Hygiene Status: Poor",
+          "source_hint": "3.txt"
+        },
+        {
+          "field": "Oral_Hygiene_Status",
+          "evidence": "Debris: + Calculus: +++",
+          "source_hint": "2.txt"
+        },
+        {
+          "field": "Trauma_Irritation_History",
+          "evidence": "No H/o trauma",
+          "source_hint": "3.txt"
+        }
+      ]
+    },
+    {
+      "Patient_ID": "patient_2",
+      "fields": {
+        "Patient_ID": "patient_2",
+        "Hospital_No": "03289327",
+        "ICD_Code": "Not documented",
+        "Age": "53",
+        "Sex": "Male",
+        "HTN": "Yes",
+        "DM": "Yes",
+        "Family_History": "Not documented",
+        "Family_History_Details": "Not documented",
+        "Chief_Complaint": "B/L Buccal mucosa leukoplakia",
+        "Mouth_Opening_Status": "Not documented",
+        "Mouth_Opening_Details": "Not documented",
+        "Soft_Tissue_Exam": "B/L Buccal mucosa leukoplakia",
+        "Specific_Findings": "B/L Buccal mucosa leukoplakia, L - B patch Bulge + C interrupted COL",
+        "Lesion_Type": "Leukoplakia, patch",
+        "Lesion_Color": "Not documented",
+        "Lesion_Site": "B/L Buccal mucosa",
+        "Burning_Sensation": "Not documented",
+        "Pain_Details": "Not documented",
+        "Bleeding_Present": "Not documented",
+        "Bleeding_Details": "Not documented",
+        "Cervical_Lymphadenopathy": "Not documented",
+        "Cervical_Lymphadenopathy_Details": "Not documented",
+        "Clinical_Diagnosis": "Leukoplakia & mild dysplasia",
+        "Final_Provisional_Dx": "Leukoplakia & mild dysplasia",
+        "Differential_Diagnosis": "Not documented",
+        "TNM_Stage": "Not documented",
+        "Histological_Subgroup": "mild dysplasia",
+        "Investigations": "HPE, CT scan",
+        "Biopsy_Details": "HPE → leukoplakia & mild dysplasia 11/3/19",
+        "Treatment_Plan": "laser assisted excision, advised Neosporin 3° - 5° - 5° x 7 days",
+        "Tobacco_Use": "Yes",
+        "Tobacco_Use_Details": "smoking",
+        "Areca_Nut_Use": "Not documented",
+        "Areca_Nut_Details": "Not documented",
+        "Alcohol_Use": "Yes",
+        "Alcohol_Use_Details": "alcohol",
+        "Oral_Hygiene_Status": "Not documented",
+        "Trauma_Irritation_History": "Not documented"
+      },
+      "patient_summary": "A 53-year-old male with a history of hypertension and newly diagnosed diabetes presented with bilateral buccal mucosa leukoplakia, which was previously treated with laser-assisted excision and diagnosed as leukoplakia with mild dysplasia. He has a history of smoking and alcohol use. The patient also reports ringing sensation and reduced hearing in the right ear.",
+      "extra_findings": [
+        {
+          "category": "Chief Complaint",
+          "title": "Ringing sensation in Rt ear",
+          "detail": "Patient complains of ringing sensation in the right ear since 6 months.",
+          "evidence": "Presenting Complaint : c/o ringing sensation in Rt ear Since 6mths",
+          "source_hint": "017_Agriculture_03289327_53_M_984_20250612_141623.txt"
+        },
+        {
+          "category": "Chief Complaint",
+          "title": "Reduced hearing R ear",
+          "detail": "Patient complains of reduced hearing in the right ear since 4 years.",
+          "evidence": "c/o reduced hearing R ear Since 4 years",
+          "source_hint": "017_Agriculture_03289327_53_M_984_20250612_141623.txt"
+        },
+        {
+          "category": "Otologic History",
+          "title": "Ear discharge",
+          "detail": "Ear discharge present in R during episodes of cold.",
+          "evidence": "Ear pain / Ear discharge : Ear discharge present in R during episodes of cold",
+          "source_hint": "017_Agriculture_03289327_53_M_984_20250612_141623.txt"
+        },
+        {
+          "category": "Otologic History",
+          "title": "Tinnitus",
+          "detail": "Tinnitus is present, intermittent in nature.",
+          "evidence": "Tinnitus : Present, intermittent in nature;",
+          "source_hint": "017_Agriculture_03289327_53_M_984_20250612_141623.txt"
+        },
+        {
+          "category": "Otologic History",
+          "title": "Dizziness",
+          "detail": "Dizziness aggravates during psychological stress.",
+          "evidence": "Dizziness : aggravates during psychological stress",
+          "source_hint": "017_Agriculture_03289327_53_M_984_20250612_141623.txt"
+        },
+        {
+          "category": "ENT Findings",
+          "title": "Right ear findings",
+          "detail": "R: CP in A1Q & PIQ D: TS patch, e profuse MPD + Bulge + 8 M&Emcongented Interrupted COL.",
+          "evidence": "ENT findings: R: CP in A1Q & PIQ D: TS patch, e profuse MPD + Bulge + 8 M&Emcongented Interrupted COL",
+          "source_hint": "017_Agriculture_03289327_53_M_984_20250612_141623.txt"
+        },
+        {
+          "category": "Audiological Evaluation",
+          "title": "Hearing loss",
+          "detail": "R: Moderately-severe mixed hearing loss, L: Mild sensorineural hearing loss.",
+          "evidence": "R: Moderately-severe mixed hearing loss L: Mild sensorineural hearing loss",
+          "source_hint": "017_Agriculture_03289327_53_M_984_20250612_141623.txt"
+        },
+        {
+          "category": "Medical History",
+          "title": "S/P OPCAB",
+          "detail": "Patient is S/P OPCAB (Off-Pump Coronary Artery Bypass) in 2022.",
+          "evidence": "S/9 OPCAB. 2022.",
+          "source_hint": "003_Agriculture_03289327_53_M_49_20250612_141625.txt"
+        },
+        {
+          "category": "Medical History",
+          "title": "Upper GI bleed",
+          "detail": "Patient had an upper GI bleed with Hb 8.6.",
+          "evidence": "Upper GI bleed. Evaluated outside - hb 8.6",
+          "source_hint": "003_Agriculture_03289327_53_M_49_20250612_141625.txt"
+        },
+        {
+          "category": "Counselling",
+          "title": "Hearing status counselling",
+          "detail": "Counselling done regarding hearing status.",
+          "evidence": "Counselling : Done regarding hearing status",
+          "source_hint": "017_Agriculture_03289327_53_M_984_20250612_141623.txt"
+        }
+      ],
+      "evidence_map": [
+        {
+          "field": "Hospital_No",
+          "evidence": "03289327",
+          "source_hint": "filename"
+        },
+        {
+          "field": "Age",
+          "evidence": "53",
+          "source_hint": "filename"
+        },
+        {
+          "field": "Sex",
+          "evidence": "Male",
+          "source_hint": "filename"
+        },
+        {
+          "field": "HTN",
+          "evidence": "Hypertension : Present, under medication for Same since 7-8 yrs",
+          "source_hint": "017_Agriculture_03289327_53_M_984_20250612_141623.txt"
+        },
+        {
+          "field": "DM",
+          "evidence": "Newly diagnosed DM.",
+          "source_hint": "003_Agriculture_03289327_53_M_49_20250612_141625.txt"
+        },
+        {
+          "field": "Chief_Complaint",
+          "evidence": "9/7/20 k/c/o B/L Buccal mucosa leukoplakia -Mar. 2019.",
+          "source_hint": "004_Agriculture_03289327_53_M_532_20250612_141623.txt"
+        },
+        {
+          "field": "Soft_Tissue_Exam",
+          "evidence": "9/7/20 k/c/o B/L Buccal mucosa leukoplakia -Mar. 2019.",
+          "source_hint": "004_Agriculture_03289327_53_M_532_20250612_141623.txt"
+        },
+        {
+          "field": "Specific_Findings",
+          "evidence": "9/7/20 k/c/o B/L Buccal mucosa leukoplakia -Mar. 2019.",
+          "source_hint": "004_Agriculture_03289327_53_M_532_20250612_141623.txt"
+        },
+        {
+          "field": "Specific_Findings",
+          "evidence": "L - B patch Bulge + C interrupted COL",
+          "source_hint": "004_Agriculture_03289327_53_M_532_20250612_141623.txt"
+        },
+        {
+          "field": "Lesion_Type",
+          "evidence": "B/L Buccal mucosa leukoplakia",
+          "source_hint": "004_Agriculture_03289327_53_M_532_20250612_141623.txt"
+        },
+        {
+          "field": "Lesion_Type",
+          "evidence": "L - B patch Bulge",
+          "source_hint": "004_Agriculture_03289327_53_M_532_20250612_141623.txt"
+        },
+        {
+          "field": "Lesion_Site",
+          "evidence": "B/L Buccal mucosa leukoplakia",
+          "source_hint": "004_Agriculture_03289327_53_M_532_20250612_141623.txt"
+        },
+        {
+          "field": "Clinical_Diagnosis",
+          "evidence": "S/P laser assisted excision → HPE → leukoplakia & mild dysplasia 11/3/19",
+          "source_hint": "004_Agriculture_03289327_53_M_532_20250612_141623.txt"
+        },
+        {
+          "field": "Final_Provisional_Dx",
+          "evidence": "S/P laser assisted excision → HPE → leukoplakia & mild dysplasia 11/3/19",
+          "source_hint": "004_Agriculture_03289327_53_M_532_20250612_141623.txt"
+        },
+        {
+          "field": "Histological_Subgroup",
+          "evidence": "HPE → leukoplakia & mild dysplasia",
+          "source_hint": "004_Agriculture_03289327_53_M_532_20250612_141623.txt"
+        },
+        {
+          "field": "Investigations",
+          "evidence": "S/P laser assisted excision → HPE",
+          "source_hint": "004_Agriculture_03289327_53_M_532_20250612_141623.txt"
+        },
+        {
+          "field": "Investigations",
+          "evidence": "CT scan next visit",
+          "source_hint": "004_Agriculture_03289327_53_M_532_20250612_141623.txt"
+        },
+        {
+          "field": "Biopsy_Details",
+          "evidence": "S/P laser assisted excision → HPE → leukoplakia & mild dysplasia 11/3/19",
+          "source_hint": "004_Agriculture_03289327_53_M_532_20250612_141623.txt"
+        },
+        {
+          "field": "Treatment_Plan",
+          "evidence": "S/P laser assisted excision",
+          "source_hint": "004_Agriculture_03289327_53_M_532_20250612_141623.txt"
+        },
+        {
+          "field": "Treatment_Plan",
+          "evidence": "was advised Neosporin 3° - 5° - 5° x 7 days",
+          "source_hint": "004_Agriculture_03289327_53_M_532_20250612_141623.txt"
+        },
+        {
+          "field": "Tobacco_Use",
+          "evidence": "H/O smoking/ alcohol :",
+          "source_hint": "017_Agriculture_03289327_53_M_984_20250612_141623.txt"
+        },
+        {
+          "field": "Tobacco_Use_Details",
+          "evidence": "smoking",
+          "source_hint": "017_Agriculture_03289327_53_M_984_20250612_141623.txt"
+        },
+        {
+          "field": "Alcohol_Use",
+          "evidence": "H/O smoking/ alcohol :",
+          "source_hint": "017_Agriculture_03289327_53_M_984_20250612_141623.txt"
+        },
+        {
+          "field": "Alcohol_Use_Details",
+          "evidence": "alcohol",
+          "source_hint": "017_Agriculture_03289327_53_M_984_20250612_141623.txt"
+        }
+      ]
+    },
+    {
+      "Patient_ID": "patient_3",
+      "fields": {
+        "Patient_ID": "patient_3",
+        "Hospital_No": "03226947",
+        "ICD_Code": "Not documented",
+        "Age": "68",
+        "Sex": "Male",
+        "HTN": "Yes",
+        "DM": "Yes",
+        "Family_History": "Not documented",
+        "Family_History_Details": "Not documented",
+        "Chief_Complaint": "Palate pain",
+        "Mouth_Opening_Status": "Restricted",
+        "Mouth_Opening_Details": "Restricted mouth opening",
+        "Soft_Tissue_Exam": "recurrence in a S/J palate with extension onto hard palate, Redness present in stomach, extra mass present in mouth",
+        "Specific_Findings": "Ecow-2 , 10-2cm, Prologue with lean & soft palate, Expanding to hard palate, Redness present in stomach, extra mass present in mouth",
+        "Lesion_Type": "Spindle cell Neoplasm, recurrence, mass",
+        "Lesion_Color": "Redness",
+        "Lesion_Site": "soft palate, hard palate, Buccal mucosa, mouth",
+        "Burning_Sensation": "Not documented",
+        "Pain_Details": "Palate pain",
+        "Bleeding_Present": "Yes",
+        "Bleeding_Details": "Small bleeding points noted",
+        "Cervical_Lymphadenopathy": "Negative",
+        "Cervical_Lymphadenopathy_Details": "No pelpeble neck node",
+        "Clinical_Diagnosis": "Carcinoma Oropharynx",
+        "Final_Provisional_Dx": "Carcinoma Oropharynx",
+        "Differential_Diagnosis": "Not documented",
+        "TNM_Stage": "PT2 NXM+",
+        "Histological_Subgroup": "Spindle cell Neoplasm",
+        "Investigations": "PETCT - No distant Mets, ECG",
+        "Biopsy_Details": "IHC - could not differentiated",
+        "Treatment_Plan": "Wide local excision (Excision of soft tissue pedicle), through Mandibular approach + Reconstruction (Bone & Soft tissue), Deletion of the S/J palate, Metronomic chemotherapy",
+        "Tobacco_Use": "Not documented",
+        "Tobacco_Use_Details": "Not documented",
+        "Areca_Nut_Use": "Not documented",
+        "Areca_Nut_Details": "Not documented",
+        "Alcohol_Use": "Not documented",
+        "Alcohol_Use_Details": "Not documented",
+        "Oral_Hygiene_Status": "Not documented",
+        "Trauma_Irritation_History": "Not documented"
+      },
+      "patient_summary": "A 68-year-old male with a history of hypertension and T2DM presented with palate pain and a recurrence of carcinoma in the soft and hard palate, previously diagnosed as spindle cell neoplasm. He has restricted mouth opening, and examination revealed an extra mass in the mouth with redness and small bleeding points. There is no palpable neck node. Investigations include PETCT showing no distant mets. Treatment plans involve wide local excision with reconstruction, deletion of the S/J palate, and metronomic chemotherapy.",
+      "extra_findings": [
+        {
+          "category": "Medical History",
+          "title": "Carcinoma head and neck",
+          "detail": "Patient has a history of carcinoma head and neck.",
+          "evidence": "Carcinoma head and neck",
+          "source_hint": "045_Agriculture_03226947_68_M_798_20250612_141601.txt"
+        },
+        {
+          "category": "Medication",
+          "title": "Ecosprin use",
+          "detail": "Patient is on Ecosprin medication.",
+          "evidence": "M on Ecosprin.",
+          "source_hint": "046_Agriculture_03226947_68_M_828_20250612_141556.txt"
+        },
+        {
+          "category": "Previous Surgery",
+          "title": "Neck dissection and mucosal resurfacing",
+          "detail": "Patient had B/L Neck dissection and Buccal mucosal resurfacing with local flap cover.",
+          "evidence": "P/S B/L Neck dissection. Buccal mucosal resurfacing. local flap cover.",
+          "source_hint": "028_Agriculture_03226947_68_M_583_20250612_141556.txt"
+        },
+        {
+          "category": "Medical Device",
+          "title": "PEG tube and Jejunostomy tube",
+          "detail": "Patient is on PEG and came for change of Jejunostomy tube due to blockage.",
+          "evidence": "Patient on PEG, no NPO. C/o. Blockage of PEG tube. Come for change Jejunostomy tube",
+          "source_hint": "051_Agriculture_03226947_68_M_928_20250612_141605.txt, 049_Agriculture_03226947_68_M_911_20250612_141608.txt"
+        },
+        {
+          "category": "Medical History",
+          "title": "Recurrent CA oropharynx",
+          "detail": "Patient has recurrent CA oropharynx - (R) valacula in Stndor.",
+          "evidence": "Clo Recurrent CA oropharynx - (R) valacula in Stndor",
+          "source_hint": "017_Agriculture_03226947_68_M_454_20250612_141606.txt"
+        },
+        {
+          "category": "Previous Surgery",
+          "title": "Tracheostomy",
+          "detail": "Patient is S/P tracheostomy.",
+          "evidence": "SIP tracheostomy (29/12/21)",
+          "source_hint": "017_Agriculture_03226947_68_M_454_20250612_141606.txt"
+        },
+        {
+          "category": "Medication",
+          "title": "Chemotherapy",
+          "detail": "Patient received OMC T x 1.5 yrs - stopped, and is on Asplatin - bened chero.",
+          "evidence": "Recieved OMC T x 1.5 yrs - stopped, on Asplatin - bened chero",
+          "source_hint": "017_Agriculture_03226947_68_M_454_20250612_141606.txt, 051_Agriculture_03226947_68_M_928_20250612_141605.txt"
+        },
+        {
+          "category": "Medication",
+          "title": "Current medications",
+          "detail": "Patient is on Celecoxib 100mg, Methotrexate 25mg, Folic acid 5mg.",
+          "evidence": "1. Celecoxib 100mg Tablet Twice daily, To continue 2. Methotrexate 25mg Tablet Once a week, To continue 3. Folic acid 5mg Tablet Twice daily, For two days a week",
+          "source_hint": "045_Agriculture_03226947_68_M_798_20250612_141601.txt"
+        },
+        {
+          "category": "Medical Device",
+          "title": "Palatal Obturator",
+          "detail": "Palatal Obturator is in place and needs to be kept clean.",
+          "evidence": "Palatal Obturator in place. To keep the obturator clean",
+          "source_hint": "049_Agriculture_03226947_68_M_911_20250612_141608.txt"
+        },
+        {
+          "category": "Oral Hygiene",
+          "title": "Nasal and oral rinse",
+          "detail": "Advised Nasoclear Nasal Spray and lukewarm mouth rinse with Sodium Bicarb powder & salt.",
+          "evidence": "Nasoclear Nasal Spray 1-1-1 Lukewarm mouth rinse with Sodium Bicarb powder & salt.",
+          "source_hint": "049_Agriculture_03226947_68_M_911_20250612_141608.txt"
+        },
+        {
+          "category": "Pathology",
+          "title": "IHC differentiation",
+          "detail": "IHC could not differentiate the spindle cell neoplasm.",
+          "evidence": "IHC - could not differentiated",
+          "source_hint": "046_Agriculture_03226947_68_M_828_20250612_141556.txt"
+        },
+        {
+          "category": "General Condition",
+          "title": "Stable Vitals",
+          "detail": "Patient is conscious and SpO2 96% maintaining in Room air. Vitals are stable.",
+          "evidence": "Patient is conscious and SpO2 96% maintaining in Room air. Medication reconciliation done. Medication . Vitals are stable",
+          "source_hint": "049_Agriculture_03226947_68_M_911_20250612_141608.txt"
+        },
+        {
+          "category": "Skin Condition",
+          "title": "Rash on stomach",
+          "detail": "Patient has a rash on stomach.",
+          "evidence": "c/o rash on stomach",
+          "source_hint": "049_Agriculture_03226947_68_M_911_20250612_141608.txt"
+        }
+      ],
+      "evidence_map": [
+        {
+          "field": "Hospital_No",
+          "evidence": "03226947",
+          "source_hint": "filename"
+        },
+        {
+          "field": "Age",
+          "evidence": "68",
+          "source_hint": "filename"
+        },
+        {
+          "field": "Age",
+          "evidence": "68 yr old Male",
+          "source_hint": "046_Agriculture_03226947_68_M_828_20250612_141556.txt"
+        },
+        {
+          "field": "Sex",
+          "evidence": "Male",
+          "source_hint": "filename"
+        },
+        {
+          "field": "Sex",
+          "evidence": "68 yr old Male",
+          "source_hint": "046_Agriculture_03226947_68_M_828_20250612_141556.txt"
+        },
+        {
+          "field": "HTN",
+          "evidence": "= HTN.",
+          "source_hint": "046_Agriculture_03226947_68_M_828_20250612_141556.txt"
+        },
+        {
+          "field": "HTN",
+          "evidence": "Lyt HTN.",
+          "source_hint": "050_Agriculture_03226947_68_M_91_20250612_141558.txt"
+        },
+        {
+          "field": "DM",
+          "evidence": "DM - OHG",
+          "source_hint": "046_Agriculture_03226947_68_M_828_20250612_141556.txt"
+        },
+        {
+          "field": "DM",
+          "evidence": "k/c/o T2DM.",
+          "source_hint": "049_Agriculture_03226947_68_M_911_20250612_141608.txt"
+        },
+        {
+          "field": "DM",
+          "evidence": "T2 DM.",
+          "source_hint": "050_Agriculture_03226947_68_M_91_20250612_141558.txt"
+        },
+        {
+          "field": "Chief_Complaint",
+          "evidence": "CHIEF COMPLAINTS Palate pain",
+          "source_hint": "045_Agriculture_03226947_68_M_798_20250612_141601.txt"
+        },
+        {
+          "field": "Mouth_Opening_Status",
+          "evidence": "Restricted mouth opening.",
+          "source_hint": "052_Agriculture_03226947_68_M_937_20250612_141601.txt"
+        },
+        {
+          "field": "Mouth_Opening_Details",
+          "evidence": "Restricted mouth opening.",
+          "source_hint": "052_Agriculture_03226947_68_M_937_20250612_141601.txt"
+        },
+        {
+          "field": "Soft_Tissue_Exam",
+          "evidence": "Now comes in recurrence in a S/J palate with extension onto hard palate.",
+          "source_hint": "028_Agriculture_03226947_68_M_583_20250612_141556.txt"
+        },
+        {
+          "field": "Soft_Tissue_Exam",
+          "evidence": "Redness present in stomach, extra mass present in mouth",
+          "source_hint": "049_Agriculture_03226947_68_M_911_20250612_141608.txt"
+        },
+        {
+          "field": "Specific_Findings",
+          "evidence": "O/E - Ecow-2 , 10-2cm - Prologue with lean & soft palate - Expanding to hard palate.",
+          "source_hint": "046_Agriculture_03226947_68_M_828_20250612_141556.txt"
+        },
+        {
+          "field": "Specific_Findings",
+          "evidence": "Redness present in stomach, extra mass present in mouth",
+          "source_hint": "049_Agriculture_03226947_68_M_911_20250612_141608.txt"
+        },
+        {
+          "field": "Lesion_Type",
+          "evidence": "Rex - Spindle cell Neoplasm",
+          "source_hint": "046_Agriculture_03226947_68_M_828_20250612_141556.txt"
+        },
+        {
+          "field": "Lesion_Type",
+          "evidence": "recurrence in a S/J palate",
+          "source_hint": "028_Agriculture_03226947_68_M_583_20250612_141556.txt"
+        },
+        {
+          "field": "Lesion_Type",
+          "evidence": "extra mass present in mouth",
+          "source_hint": "049_Agriculture_03226947_68_M_911_20250612_141608.txt"
+        },
+        {
+          "field": "Lesion_Color",
+          "evidence": "Redness present in stomach, extra mass present in mouth",
+          "source_hint": "049_Agriculture_03226947_68_M_911_20250612_141608.txt"
+        },
+        {
+          "field": "Lesion_Site",
+          "evidence": "Now lean - soft palate",
+          "source_hint": "046_Agriculture_03226947_68_M_828_20250612_141556.txt"
+        },
+        {
+          "field": "Lesion_Site",
+          "evidence": "Expanding to hard palate.",
+          "source_hint": "046_Agriculture_03226947_68_M_828_20250612_141556.txt"
+        },
+        {
+          "field": "Lesion_Site",
+          "evidence": "Klolo Ca Buccal mucosa",
+          "source_hint": "019_Agriculture_03226947_68_M_468_20250612_141600.txt"
+        },
+        {
+          "field": "Lesion_Site",
+          "evidence": "S/J palate with extension onto hard palate.",
+          "source_hint": "028_Agriculture_03226947_68_M_583_20250612_141556.txt"
+        },
+        {
+          "field": "Lesion_Site",
+          "evidence": "extra mass present in mouth",
+          "source_hint": "049_Agriculture_03226947_68_M_911_20250612_141608.txt"
+        },
+        {
+          "field": "Pain_Details",
+          "evidence": "Palate pain",
+          "source_hint": "045_Agriculture_03226947_68_M_798_20250612_141601.txt"
+        },
+        {
+          "field": "Pain_Details",
+          "evidence": "No fresh complaints of pain.",
+          "source_hint": "011_Agriculture_03226947_68_M_372_20250612_141601.txt"
+        },
+        {
+          "field": "Bleeding_Present",
+          "evidence": "Small bleeding points noted",
+          "source_hint": "036_Agriculture_03226947_68_M_65_20250612_141607.txt"
+        },
+        {
+          "field": "Bleeding_Details",
+          "evidence": "Small bleeding points noted",
+          "source_hint": "036_Agriculture_03226947_68_M_65_20250612_141607.txt"
+        },
+        {
+          "field": "Cervical_Lymphadenopathy",
+          "evidence": "No pelpeble neck node",
+          "source_hint": "003_Agriculture_03226947_68_M_169_20250612_141556.txt"
+        },
+        {
+          "field": "Cervical_Lymphadenopathy_Details",
+          "evidence": "No pelpeble neck node",
+          "source_hint": "003_Agriculture_03226947_68_M_169_20250612_141556.txt"
+        },
+        {
+          "field": "Clinical_Diagnosis",
+          "evidence": "Provisional diagnosis : Carcinoma Oropharynx",
+          "source_hint": "010_Agriculture_03226947_68_M_345_20250612_141608.txt"
+        },
+        {
+          "field": "Clinical_Diagnosis",
+          "evidence": "Carcinoma head and neck",
+          "source_hint": "045_Agriculture_03226947_68_M_798_20250612_141601.txt"
+        },
+        {
+          "field": "Final_Provisional_Dx",
+          "evidence": "Provisional diagnosis : Carcinoma Oropharynx",
+          "source_hint": "010_Agriculture_03226947_68_M_345_20250612_141608.txt"
+        },
+        {
+          "field": "TNM_Stage",
+          "evidence": "Klolo Ca Buccal mucosa (PT2 NXM+)",
+          "source_hint": "019_Agriculture_03226947_68_M_468_20250612_141600.txt"
+        },
+        {
+          "field": "Histological_Subgroup",
+          "evidence": "Rex - Spindle cell Neoplasm",
+          "source_hint": "046_Agriculture_03226947_68_M_828_20250612_141556.txt"
+        },
+        {
+          "field": "Investigations",
+          "evidence": "PETCT - No distant Mets",
+          "source_hint": "046_Agriculture_03226947_68_M_828_20250612_141556.txt"
+        },
+        {
+          "field": "Investigations",
+          "evidence": "ECG",
+          "source_hint": "049_Agriculture_03226947_68_M_911_20250612_141608.txt"
+        },
+        {
+          "field": "Biopsy_Details",
+          "evidence": "IHC - could not differentiated",
+          "source_hint": "046_Agriculture_03226947_68_M_828_20250612_141556.txt"
+        },
+        {
+          "field": "Treatment_Plan",
+          "evidence": "Plan 1: Wide local excision (Excision of soft tissue pedicle), through 2) Mandibular approach + Reconstruction (Bone & Soft tissue)",
+          "source_hint": "046_Agriculture_03226947_68_M_828_20250612_141556.txt"
+        },
+        {
+          "field": "Treatment_Plan",
+          "evidence": "Plan: Deletion of the S/J palate.",
+          "source_hint": "028_Agriculture_03226947_68_M_583_20250612_141556.txt"
+        },
+        {
+          "field": "Treatment_Plan",
+          "evidence": "On metronomic therapy",
+          "source_hint": "045_Agriculture_03226947_68_M_798_20250612_141601.txt"
+        }
+      ]
+    }
+  ]
+}

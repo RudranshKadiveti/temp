@@ -1,0 +1,47 @@
+===== page_001.txt =====
+Service date
+History, Examination, Treatment, Progress and Operation
+Inv. Ordered
+Ht. : _______ Wt.: 77.400 Kg BP: 140.80 mmHg Pulse: 98 /Min Temp.: 98.6°F Spo2: 99 %
+Rx
+T. Mcloprol 25
+1-0-1
+T. Ecosprin 450
+1-0
+T. Clopidogrel 75
+0-1-0
+T. Atorva 40
+0-0-1
+Ecosprin 600
+0-0-1
+55 % gentleman,
+440 AWM
+CA6 (+) OVP
+8P CABG 8/1/22
+40 Dizigmen x 1 week
+A) onet, 9 on changing position (sitting → standing)
+each episode = 15 secs, 1 during morning
+Chest pain
+Palpitation
+P0E
+Pedal edema
+Dr. Srinam
+Manipal - 576104, Udupi District, Karnataka
+Phone: 0820-2571967 / Fax: 0820-25719: / 2574321, Email: helpdesk.kh@manipal.edu
+
+===== page_002.txt =====
+HR: 78 bpm
+BP: 140/80 mm
+PA: soft
+NS: N/P
+CVP/NAP
+RS
+Standing: 140/90
+No postural drop in BP.
+CPEB
+Rbs/8.6
+h/cr/Na/140
+ECG
+Murm 4/6
+A/w replete
+O

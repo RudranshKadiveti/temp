@@ -1,0 +1,138 @@
+===== page_001.txt =====
+Chief Complaint: 
+throat region since 2 weeks
+
+History of Present Illness:
+- H/o swelling reported a lower left
+throat region since 2 weeks that firstly
+started 3 years ago and consequently
+increased and decreased in size. with
+onset of severe pain a tooth
+- No H/o bleeding, pus discharge
+
+Relevant Medical History:
+- No H/o fever.
+- No H/o trauma
+- No H/o loss of appetite
+- No H/o weight loss
+
+Family History:
+
+Past Dental History:
++ NRMH.
+
+Personal History:
+Oral Hygiene Measures - Brusher once daily
+Diet - Mixed
+Oral Abusive Habits - Tobacco Chewing "4 years
+
+DEN - 017
+
+===== page_002.txt =====
+General Examination:
+Build, nourishment, gait –
+Vital signs –
+Other findings –
+
+Extraoral Examination:
+Eyes, ears, nose –
+Facial symmetry –
+Facial profile –
+Lips –
+TMJ examination –
+Lymph nodes –
+Mouth opening – Normal
+
+Intraoral Examination:
+Soft Tissue Examination
+Labial Mucosa –
+Buccal Mucosa –
+Palate –
+Floor of mouth –
+Tongue –
+Vestibules –
+Faucial pillars –
+
+Hard Tissue Examination
+
+18  17  16  15  14  13  12  11  21  22  23  24  25  26  27  28
+55  54  53  52  51  61  62  63  64  65
+85  84  83  82  81  71  72  73  74  75
+48  47  46  45  44  43  42  41  31  32  33  34  35  36  37  38
+
+D= decayed  PI= decayed with pulpal involvement  RS= root stump
+M= missing  F= filled  Mo= mobility  # = fracture
+C= prosthetic crown  RPD = removable partial denture  FPD = fixed partial denture
+AT= attrition  AB= abrasion  ER= erosion
+
+Extra-Oval
+- One Submandibular
+lymph node palpable
+firm to hard in consistency
+approx -> 5cm x 4cm - oval.
+Mildly mobile with
+severe tenderness.
+
+Oral Hygiene Status: Poor
+
+Gingiva
+Color –
+Contour –
+Position –
+Surface texture –
+Consistency –
+Bleeding on probing –
+Periodontal Pockets –
+
+Yes No
+Halitosis
+Stains
+Calculus
+
+Gen Attraction
+
+===== page_003.txt =====
+- Nodular growth - firm to hard in consistency
+- Submandibular lymphadenopathy
+
+Differential Diagnosis:
+
+Investigations and Results:
+- Adv. USH and OHL
+- OHL shows a well defined radiopaque dense region at the submandibular region measuring approx. 2cm x 1.5 cm
+- USH shows the sialolithiasis with multiple subcentimetric ductal calculi, III, IV lymph node.
+
+===== page_004.txt =====
+Final Diagnosis:
+- Sialolithiasis with (L) Submandibular
+  calcified lymph node
+
+Treatment Plan:
+1) Oral Surgery Evaluation
+2)
+3)
+4)
+
+Drugs Prescribed:
+- USG and Oth available with pt.
+
+2 Conservative Dentistry
+3 Periodontology
+4 Oral & Maxillofacial Surgery
+5 Prosthodontics
+6 Pediatric and Preventive Dentistry
+7 Orthodontics
+
+Priority
+[4] → [ ] → [ ] → [ ] → [ ]
+
+Examined by:
+Dr. Sinhar (PhD)
+29/10/24
+
+Student:
+Staff:
+(Dr. Suresh A)
+29/10/24
+
+4

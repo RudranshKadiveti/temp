@@ -1,0 +1,13 @@
+===== page_001.txt =====
+Bill Details : CON042 : Bill Paid :
+Service date
+History,Examination,Treatment,Progress and Operation
+Inv. Ordered
+Ht. :        Wt. :        Kg    BP : 140/90 mmHg    Pulse : 84 /Min Temp. : 98°F Spo2 : 98%
+CABG ↑ CTS 002
+DR. GURUPRASAD RAI D, MS, MCh
+Associate Professor
+Dept. of Cardiovascular and Thoracic Surgery
+Kasturba Hospital, Manipal
+Med. Reg. No: 82094
+Manipal - 576104 , Udupi District, Karnataka

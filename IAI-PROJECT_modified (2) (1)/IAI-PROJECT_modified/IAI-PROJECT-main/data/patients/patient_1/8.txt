@@ -1,0 +1,27 @@
+===== page_001.txt =====
+CS Print Time : 08:48:33 AM
+Patient Seen Time :
+Service date
+History,Examination,Treatment,Progress and Operation
+Inv. Ordered
+Ht. : Wt. : 88.52 Kg BP : 140/85 mmHg Pulse : 72 /Min Temp. : °F Spo2 : %
+26.4.25
+10 ccs
+PSY3
+Hep alone
+RDD
+> C10 fatigue mainly
+> mood u responding
+C. VENIZ-AR 150 mg DD1
+C. VENIZ-AR 7500 mg DD1
+Stear T. THYRONORM 12.5mg 100
+(DF)
+Stated in 40 feed T3
+Syp Betony 250 √ √ √
+T. D3 MUSK 60K = 1 tab
+Pp 200mg 200-
+DR. RAVINDRA MUNOLI
+ADDITIONAL PROFESSOR
+DEPARTMENT OF PSYCHIA. RY
+KASTURBA HOSPITAL, MANIPAL-576104
+KMC REG. No. 74197
